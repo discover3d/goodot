@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/debian/goodot/nuxt/goodot/apps/goodot/src/pages/about.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <div class=\"about\">\n    <h1>This is an about page.</h1>\n  </div>\n</template>\n\n<style>\n@media (min-width: 768px) {\n  .about {\n    max-width: 768px;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 0 1rem;\n  }\n}\n</style>\n",
+      "start": 1729960134434,
+      "end": 1729960134467,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1729960134467,
+      "end": 1729960134467,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"about\" }, _attrs))}><h1>This is an about page.</h1></div>`)\n}\n\nimport \"/home/debian/goodot/nuxt/goodot/apps/goodot/src/pages/about.vue?vue&type=style&index=0&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/about.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1729960134467,
+      "end": 1729960134468,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/debian/goodot/nuxt/goodot/apps/goodot/src/pages/about.vue"
+        ],
+        "names": [],
+        "mappings": ";;;;EAAA,aAAA,gBAAA,cACO,KAAK,EAAC,OAAO,IADpB",
+        "sourcesContent": [
+          "<template>\n  <div class=\"about\">\n    <h1>This is an about page.</h1>\n  </div>\n</template>\n\n<style>\n@media (min-width: 768px) {\n  .about {\n    max-width: 768px;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 0 1rem;\n  }\n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1729960134468,
+      "end": 1729960134468,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1729960134468,
+      "end": 1729960134469,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1729960134468,
+      "end": 1729960134469,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;"
+      }
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1729960134469,
+      "end": 1729960134469,
+      "order": "normal"
+    }
+  ]
+}

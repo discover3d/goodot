@@ -1,0 +1,215 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck"
+      }
+    },
+    {
+      "name": "@nx/nuxt/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve"
+      }
+    },
+    {
+      "name": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11970864265011036428"
+      },
+      {
+        "file": "README.md",
+        "hash": "17872556332324630877"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16362845859510497250"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "13509700000911259425"
+      },
+      {
+        "file": "nx.json",
+        "hash": "8312142782832817177"
+      },
+      {
+        "file": "package.json",
+        "hash": "10771802472578410000"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "1380489499603536477"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15851414276814639374"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
+      }
+    ],
+    "projectFileMap": {
+      "goodot": [
+        {
+          "file": "apps/goodot/.npmrc",
+          "hash": "1829183420567411207"
+        },
+        {
+          "file": "apps/goodot/eslint.config.js",
+          "hash": "4121851784347540306",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@typescript-eslint/parser"
+          ]
+        },
+        {
+          "file": "apps/goodot/nuxt.config.ts",
+          "hash": "9164123860427048043",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:nuxt"
+          ]
+        },
+        {
+          "file": "apps/goodot/project.json",
+          "hash": "3906752027125401698"
+        },
+        {
+          "file": "apps/goodot/src/app.vue",
+          "hash": "2796453627666825624"
+        },
+        {
+          "file": "apps/goodot/src/assets/css/styles.scss",
+          "hash": "97131783897646283"
+        },
+        {
+          "file": "apps/goodot/src/components/NxWelcome.vue",
+          "hash": "6596996905071414710"
+        },
+        {
+          "file": "apps/goodot/src/pages/about.vue",
+          "hash": "7388615012605336437"
+        },
+        {
+          "file": "apps/goodot/src/pages/index.vue",
+          "hash": "10946155950504047335"
+        },
+        {
+          "file": "apps/goodot/src/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/goodot/src/public/favicon.ico",
+          "hash": "6004808206618708045"
+        },
+        {
+          "file": "apps/goodot/src/server/api/greet.ts",
+          "hash": "16792560205052821447",
+          "deps": [
+            "npm:h3"
+          ]
+        },
+        {
+          "file": "apps/goodot/src/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "apps/goodot/tsconfig.app.json",
+          "hash": "14994694545032617005"
+        },
+        {
+          "file": "apps/goodot/tsconfig.json",
+          "hash": "15440077858869283574"
+        },
+        {
+          "file": "apps/goodot/tsconfig.spec.json",
+          "hash": "4465431688559930793"
+        },
+        {
+          "file": "apps/goodot/vitest.config.ts",
+          "hash": "14865604855391584194",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-vue",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "goodot-e2e": [
+        {
+          "file": "apps/goodot-e2e/eslint.config.js",
+          "hash": "4703616457710285801",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/playwright.config.ts",
+          "hash": "12438681865170134677",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/project.json",
+          "hash": "12154316006048627236"
+        },
+        {
+          "file": "apps/goodot-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
+        }
+      ]
+    }
+  }
+}

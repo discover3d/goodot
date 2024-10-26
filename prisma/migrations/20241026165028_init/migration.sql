@@ -1,0 +1,141 @@
+-- CreateTable
+CREATE TABLE "Repository" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "node_id" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "full_name" TEXT NOT NULL,
+    "html_url" TEXT NOT NULL,
+    "description" TEXT,
+    "fork" BOOLEAN NOT NULL,
+    "url" TEXT NOT NULL,
+    "forks_url" TEXT NOT NULL,
+    "keys_url" TEXT NOT NULL,
+    "collaborators_url" TEXT NOT NULL,
+    "teams_url" TEXT NOT NULL,
+    "hooks_url" TEXT NOT NULL,
+    "issue_events_url" TEXT NOT NULL,
+    "events_url" TEXT NOT NULL,
+    "assignees_url" TEXT NOT NULL,
+    "branches_url" TEXT NOT NULL,
+    "tags_url" TEXT NOT NULL,
+    "blobs_url" TEXT NOT NULL,
+    "git_tags_url" TEXT NOT NULL,
+    "git_refs_url" TEXT NOT NULL,
+    "trees_url" TEXT NOT NULL,
+    "statuses_url" TEXT NOT NULL,
+    "languages_url" TEXT NOT NULL,
+    "stargazers_url" TEXT NOT NULL,
+    "contributors_url" TEXT NOT NULL,
+    "subscribers_url" TEXT NOT NULL,
+    "subscription_url" TEXT NOT NULL,
+    "commits_url" TEXT NOT NULL,
+    "git_commits_url" TEXT NOT NULL,
+    "comments_url" TEXT NOT NULL,
+    "issue_comment_url" TEXT NOT NULL,
+    "contents_url" TEXT NOT NULL,
+    "compare_url" TEXT NOT NULL,
+    "merges_url" TEXT NOT NULL,
+    "archive_url" TEXT NOT NULL,
+    "downloads_url" TEXT NOT NULL,
+    "issues_url" TEXT NOT NULL,
+    "pulls_url" TEXT NOT NULL,
+    "milestones_url" TEXT NOT NULL,
+    "notifications_url" TEXT NOT NULL,
+    "labels_url" TEXT NOT NULL,
+    "releases_url" TEXT NOT NULL,
+    "deployments_url" TEXT NOT NULL,
+    "created_at" DATETIME NOT NULL,
+    "updated_at" DATETIME NOT NULL,
+    "pushed_at" DATETIME NOT NULL,
+    "git_url" TEXT NOT NULL,
+    "ssh_url" TEXT NOT NULL,
+    "clone_url" TEXT NOT NULL,
+    "svn_url" TEXT NOT NULL,
+    "homepage" TEXT,
+    "size" INTEGER NOT NULL,
+    "stargazers_count" INTEGER NOT NULL,
+    "watchers_count" INTEGER NOT NULL,
+    "language" TEXT,
+    "has_issues" BOOLEAN NOT NULL,
+    "has_projects" BOOLEAN NOT NULL,
+    "has_downloads" BOOLEAN NOT NULL,
+    "has_wiki" BOOLEAN NOT NULL,
+    "has_pages" BOOLEAN NOT NULL,
+    "has_discussions" BOOLEAN NOT NULL,
+    "forks_count" INTEGER NOT NULL,
+    "mirror_url" TEXT,
+    "archived" BOOLEAN NOT NULL,
+    "disabled" BOOLEAN NOT NULL,
+    "open_issues_count" INTEGER NOT NULL,
+    "allow_forking" BOOLEAN NOT NULL,
+    "is_template" BOOLEAN NOT NULL,
+    "web_commit_signoff_required" BOOLEAN NOT NULL,
+    "forks" INTEGER NOT NULL,
+    "open_issues" INTEGER NOT NULL,
+    "watchers" INTEGER NOT NULL,
+    "default_branch" TEXT NOT NULL,
+    "temp_clone_token" TEXT,
+    "network_count" INTEGER NOT NULL,
+    "subscribers_count" INTEGER NOT NULL,
+    "readme_content" TEXT,
+    "licenseId" INTEGER,
+    "permissionsId" INTEGER,
+    "userId" INTEGER,
+    CONSTRAINT "Repository_licenseId_fkey" FOREIGN KEY ("licenseId") REFERENCES "License" ("id") ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT "Repository_permissionsId_fkey" FOREIGN KEY ("permissionsId") REFERENCES "Permissions" ("id") ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT "Repository_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+-- CreateTable
+CREATE TABLE "License" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "key" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "spdx_id" TEXT NOT NULL,
+    "url" TEXT,
+    "node_id" TEXT NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "Permissions" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "admin" BOOLEAN NOT NULL,
+    "maintain" BOOLEAN NOT NULL,
+    "push" BOOLEAN NOT NULL,
+    "triage" BOOLEAN NOT NULL,
+    "pull" BOOLEAN NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "User" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "login" TEXT NOT NULL,
+    "login_id" INTEGER NOT NULL,
+    "node_id" TEXT NOT NULL,
+    "avatar_url" TEXT NOT NULL,
+    "gravatar_id" TEXT,
+    "url" TEXT NOT NULL,
+    "html_url" TEXT NOT NULL,
+    "followers_url" TEXT NOT NULL,
+    "following_url" TEXT NOT NULL,
+    "gists_url" TEXT NOT NULL,
+    "starred_url" TEXT NOT NULL,
+    "subscriptions_url" TEXT NOT NULL,
+    "organizations_url" TEXT NOT NULL,
+    "repos_url" TEXT NOT NULL,
+    "events_url" TEXT NOT NULL,
+    "received_events_url" TEXT NOT NULL,
+    "user_type" TEXT NOT NULL,
+    "site_admin" BOOLEAN NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "Topic" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "repositoryId" INTEGER NOT NULL,
+    CONSTRAINT "Topic_repositoryId_fkey" FOREIGN KEY ("repositoryId") REFERENCES "Repository" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Topic_repositoryId_name_key" ON "Topic"("repositoryId", "name");

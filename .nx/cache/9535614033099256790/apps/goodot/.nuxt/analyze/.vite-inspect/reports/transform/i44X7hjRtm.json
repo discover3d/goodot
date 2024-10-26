@@ -1,0 +1,209 @@
+{
+  "resolvedId": "/home/debian/goodot/nuxt/goodot/apps/goodot/src/app.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\"></script>\n\n<template>\n  <main>\n    <header>\n      <nav>\n        <NuxtLink to=\"/\"> Home </NuxtLink>\n        <NuxtLink to=\"/about\"> About </NuxtLink>\n      </nav>\n    </header>\n    <nuxt-page />\n  </main>\n</template>\n\n<style scoped lang=\"css\">\nheader {\n  line-height: 1.5;\n  max-width: 100vw;\n}\n\nnav > a {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n@media (min-width: 768px) {\n  header {\n    display: flex;\n    place-items: center;\n    padding-right: calc(var(--section-gap) / 2);\n    margin-left: auto;\n    margin-right: auto;\n    max-width: 768px;\n  }\n\n  nav {\n    text-align: left;\n    font-size: 1rem;\n\n    padding: 1rem 0;\n    margin-top: 1rem;\n  }\n}\n</style>\n",
+      "start": 1729960132353,
+      "end": 1729960132606,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1729960132606,
+      "end": 1729960132606,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1729960132606,
+      "end": 1729960132606,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1729960132606,
+      "end": 1729960132606,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1729960132606,
+      "end": 1729960132606,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1729960132606,
+      "end": 1729960132606,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1729960132606,
+      "end": 1729960132606,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_nuxt_page = _resolveComponent(\"nuxt-page\")\n\n  return (_openBlock(), _createElementBlock(\"main\", null, [\n    _createElementVNode(\"header\", null, [\n      _createElementVNode(\"nav\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/\" }, {\n          default: _withCtx(() => _cache[0] || (_cache[0] = [\n            _createTextVNode(\" Home \")\n          ])),\n          _: 1\n        }),\n        _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n          default: _withCtx(() => _cache[1] || (_cache[1] = [\n            _createTextVNode(\" About \")\n          ])),\n          _: 1\n        })\n      ])\n    ]),\n    _createVNode(_component_nuxt_page)\n  ]))\n}\n\nimport \"/home/debian/goodot/nuxt/goodot/apps/goodot/src/app.vue?vue&type=style&index=0&scoped=f1ca065e&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-f1ca065e\"]])",
+      "start": 1729960132606,
+      "end": 1729960132608,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:prehydrate-transform",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1729960132608,
+      "end": 1729960132608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1729960132608,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/home/debian/goodot/nuxt/goodot/node_modules/nuxt/dist/app/components/nuxt-link.js\";\nimport { default as __nuxt_component_1 } from \"/home/debian/goodot/nuxt/goodot/node_modules/nuxt/dist/pages/runtime/page.js\";\nconst _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_nuxt_page = __nuxt_component_1\n\n  return (_openBlock(), _createElementBlock(\"main\", null, [\n    _createElementVNode(\"header\", null, [\n      _createElementVNode(\"nav\", null, [\n        _createVNode(_component_NuxtLink, { to: \"/\" }, {\n          default: _withCtx(() => _cache[0] || (_cache[0] = [\n            _createTextVNode(\" Home \")\n          ])),\n          _: 1\n        }),\n        _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n          default: _withCtx(() => _cache[1] || (_cache[1] = [\n            _createTextVNode(\" About \")\n          ])),\n          _: 1\n        })\n      ])\n    ]),\n    _createVNode(_component_nuxt_page)\n  ]))\n}\n\nimport \"/home/debian/goodot/nuxt/goodot/apps/goodot/src/app.vue?vue&type=style&index=0&scoped=f1ca065e&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-f1ca065e\"]])",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1729960132609,
+      "end": 1729960132609,
+      "order": "normal"
+    }
+  ]
+}
