@@ -1,0 +1,8 @@
+{
+  "name": "goodot-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/goodot-e2e/src",
+  "implicitDependencies": ["goodot"],
+  "// targets": "to see all targets run: nx show project goodot-e2e --web",
+  "targets": {}
+}
