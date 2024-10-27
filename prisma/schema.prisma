@@ -95,8 +95,8 @@ model Repository {
 }
 
 model License {
-  id         Int      @id @default(autoincrement())
-  key        String
+  id         Int?      @id @default(autoincrement())
+  key        String?
   name       String
   spdx_id    String
   url        String?
