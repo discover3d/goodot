@@ -9,10 +9,11 @@ generator client {
 
 
 model Repository {
-  id                      Int      @unique
+  id                      Int      @id @default(autoincrement()) // Unique identifier for the repository
   node_id                 String   @unique // Unique GitHub node ID for the repository
   name                    String   // Name of the repository
   full_name               String   // Full name of the repository (owner/repo)
+  private                 Boolean  // Whether the repository is private
   html_url                String?  // HTML URL for the repository
   description             String?  // Description of the repository
   fork                    Boolean  // Whether the repository is a fork
@@ -60,7 +61,7 @@ model Repository {
   ssh_url                 String?  // SSH URL for the repository
   clone_url               String?  // Clone URL for the repository
   svn_url                 String?  // SVN URL for the repository
-  homepage                String?  // SVN URL for the repository
+  homepage                String?  // Homepage URL for the repository
   size                    Int      // Size of the repository
   stargazers_count        Int      // Number of stargazers
   watchers_count          Int      // Number of watchers
@@ -80,14 +81,17 @@ model Repository {
   is_template             Boolean  // Whether the repository is a template
   web_commit_signoff_required Boolean // Whether web commit signoff is required
   visibility              String?  // Visibility of the repository (e.g., "public")
-  forks                   Int?
-  open_issues             Int?
-  watchers                Int?
+  forks                   Int?     // Number of forks
+  open_issues             Int?     // Number of open issues
+  watchers                Int?     // Number of watchers
   default_branch          String?  // Default branch of the repository
-  temp_clone_token        String?
-  network_count           Int?
-  subscribers_count       Int?
+  temp_clone_token        String?  // Temporary clone token
+  network_count           Int?     // Network count
+  subscribers_count       Int?     // Subscribers count
   userId                  String?  // Foreign key to the User model
+  user                    User?     @relation(fields: [userId], references: [id]) // Relation to the User model
+  licenseId               Int?     // Foreign key to the License model
+  license                 License?  @relation(fields: [licenseId], references: [id]) // Relation to the License model
 }
 
 model License {
@@ -97,6 +101,7 @@ model License {
   spdx_id    String
   url        String?
   node_id    String
+  repositories Repository[] // Relation to repositories
 }
 
 model Permissions {
@@ -127,6 +132,7 @@ model User {
   received_events_url String? // URL for received events
   type             String?  // Type of user (e.g., User, Organization)
   site_admin       Boolean? // Whether the user is a site admin
+  repositories      Repository[] // Relation to repositories
 }
 
 model Topic {

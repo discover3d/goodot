@@ -1060,6 +1060,7 @@ const addRepository = defineEventHandler(async (event) => {
       "node_id": "R_kgDOJDiRPw",
       "name": "tono",
       "full_name": "Hanif012/tono",
+      "private": false,
       "html_url": "https://github.com/Hanif012/tono",
       "description": "godot game for telkom submission",
       "fork": false,

@@ -37,88 +37,96 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "prisma/schema.prisma",
-        "hash": "4251964651906413313"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "README.md",
-        "hash": "17872556332324630877"
+        "file": ".DS_Store",
+        "hash": "16730629191048842229"
       },
       {
         "file": "prisma/.DS_Store",
         "hash": "1423727717470884368"
       },
       {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "prisma/db/goodot.db",
-        "hash": "15507663632067913284"
-      },
-      {
         "file": "nx.json",
         "hash": "8312142782832817177"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "16362845859510497250"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "13509700000911259425"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "1380489499603536477"
-      },
-      {
-        "file": "package.json",
-        "hash": "4138742327054406107"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "prisma/migrations/20241026165028_init/migration.sql",
-        "hash": "14934145557009873688"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
       },
       {
         "file": "prisma/migrations/20241027140118_visibility/migration.sql",
         "hash": "12386748538337253981"
       },
       {
-        "file": ".env",
-        "hash": "12756446777390199363"
+        "file": "README.md",
+        "hash": "17872556332324630877"
       },
       {
-        "file": ".DS_Store",
-        "hash": "16730629191048842229"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
-        "file": "prisma/migrations/migration_lock.toml",
-        "hash": "10997593172930738585"
+        "file": ".vscode/extensions.json",
+        "hash": "16362845859510497250"
+      },
+      {
+        "file": "package.json",
+        "hash": "4138742327054406107"
       },
       {
         "file": "vitest.workspace.ts",
         "hash": "7870362608836821141"
       },
       {
+        "file": "prisma/migrations/20241027140929_full_structure_relation/migration.sql",
+        "hash": "12144586823853944342"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "prisma/migrations/20241026165028_init/migration.sql",
+        "hash": "14934145557009873688"
+      },
+      {
+        "file": "prisma/schema.prisma",
+        "hash": "869152661962773709"
+      },
+      {
+        "file": "prisma/migrations/migration_lock.toml",
+        "hash": "10997593172930738585"
+      },
+      {
         "file": "package-lock.json",
         "hash": "9379614031737854410"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "13509700000911259425"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "prisma/migrations/20241027141150_full_structure_relation/migration.sql",
+        "hash": "1437879033111690016"
+      },
+      {
+        "file": "prisma/db/goodot.db",
+        "hash": "6112043474525388240"
+      },
+      {
+        "file": ".env",
+        "hash": "12756446777390199363"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "1380489499603536477"
       }
     ],
     "projectFileMap": {
@@ -988,11 +996,11 @@
         },
         {
           "file": "apps/goodot/.nuxt/dev/index.mjs",
-          "hash": "11044529559780613770"
+          "hash": "7140469354258765062"
         },
         {
           "file": "apps/goodot/.nuxt/dev/index.mjs.map",
-          "hash": "15682198029177901828"
+          "hash": "11080658090500871917"
         },
         {
           "file": "apps/goodot/.nuxt/dist/server/client.manifest.json",
@@ -1025,7 +1033,7 @@
         },
         {
           "file": "apps/goodot/.nuxt/nitro.json",
-          "hash": "2753824422936176336"
+          "hash": "14989502296867966220"
         },
         {
           "file": "apps/goodot/.nuxt/nuxt.d.ts",
@@ -1285,7 +1293,7 @@
         },
         {
           "file": "apps/goodot/src/server/api/addRepository.ts",
-          "hash": "8817456163498912898",
+          "hash": "14190186030424286813",
           "deps": [
             "npm:h3"
           ]

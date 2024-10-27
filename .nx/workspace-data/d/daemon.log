@@ -10447,3 +10447,500 @@
 [NX Daemon Server] - 2024-10-27T14:01:45.323Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX Daemon Server] - 2024-10-27T14:01:45.323Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX Daemon Server] - 2024-10-27T14:01:45.323Z - Time taken for 'total execution time for createProjectGraph()' 19.77520899940282ms
+[NX Daemon Server] - 2024-10-27T14:06:42.205Z - [WATCHER]: prisma/db/goodot.db-journal was created or restored
+[NX Daemon Server] - 2024-10-27T14:06:42.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:06:42.313Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:06:42.313Z - [REQUEST]: prisma/db/goodot.db-journal
+[NX Daemon Server] - 2024-10-27T14:06:42.313Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:06:42.338Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.338Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.338Z - Handled GLOB. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:06:42.339Z - Time taken for 'hash changed files from watcher' 2.347458000294864ms
+[NX Daemon Server] - 2024-10-27T14:06:42.340Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.340Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.340Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:06:42.341Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.341Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.341Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:06:42.342Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.342Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.344Z - Handled HASH_GLOB. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-10-27T14:06:42.344Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.344Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.344Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:06:42.345Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.345Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.345Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:06:42.345Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.345Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:06:42.346Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:06:42.382Z - Time taken for 'build-project-configs' 57.36474999971688ms
+[NX Daemon Server] - 2024-10-27T14:06:42.386Z - Time taken for '@nx/vite/plugin:createDependencies' 5.814375000074506ms
+[NX Daemon Server] - 2024-10-27T14:06:42.403Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:06:42.404Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:06:42.404Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:06:42.404Z - Time taken for 'total execution time for createProjectGraph()' 14.969166999682784ms
+[NX Daemon Server] - 2024-10-27T14:07:13.650Z - [WATCHER]: prisma/db/goodot.db-journal was deleted
+[NX Daemon Server] - 2024-10-27T14:07:13.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:07:13.853Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:07:14.005Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:07:14.005Z - [REQUEST]: prisma/db/goodot.db-journal
+[NX Daemon Server] - 2024-10-27T14:07:14.024Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.024Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.024Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:14.025Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.026Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.026Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:07:14.026Z - Time taken for 'hash changed files from watcher' 0.5091250007972121ms
+[NX Daemon Server] - 2024-10-27T14:07:14.027Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.027Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.027Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:14.028Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.028Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.028Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:14.029Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.029Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.029Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:14.031Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.031Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.031Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:14.032Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.032Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:14.032Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:14.064Z - Time taken for 'build-project-configs' 49.16408299934119ms
+[NX Daemon Server] - 2024-10-27T14:07:14.069Z - Time taken for '@nx/vite/plugin:createDependencies' 8.468415999785066ms
+[NX Daemon Server] - 2024-10-27T14:07:14.110Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:07:14.110Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:07:14.110Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:07:14.110Z - Time taken for 'total execution time for createProjectGraph()' 22.313999999314547ms
+[NX Daemon Server] - 2024-10-27T14:07:19.133Z - [WATCHER]: prisma/db/goodot.db-journal was deleted
+[NX Daemon Server] - 2024-10-27T14:07:19.367Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:07:19.768Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:07:20.052Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:07:20.053Z - [REQUEST]: prisma/db/goodot.db-journal
+[NX Daemon Server] - 2024-10-27T14:07:20.099Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.483Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.484Z - Handled HASH_GLOB. Handling time: 8. Response time: 385.
+[NX Daemon Server] - 2024-10-27T14:07:20.485Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.485Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.485Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:20.486Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.494Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.494Z - Handled GLOB. Handling time: 1. Response time: 8.
+[NX Daemon Server] - 2024-10-27T14:07:20.494Z - Time taken for 'hash changed files from watcher' 0.46937499940395355ms
+[NX Daemon Server] - 2024-10-27T14:07:20.495Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.814Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:20.820Z - Handled HASH_GLOB. Handling time: 0. Response time: 324.
+[NX Daemon Server] - 2024-10-27T14:07:20.827Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:21.138Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:21.139Z - Handled HASH_GLOB. Handling time: 1. Response time: 312.
+[NX Daemon Server] - 2024-10-27T14:07:21.151Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:21.151Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:21.151Z - Handled HASH_GLOB. Handling time: 11. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:21.152Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:21.152Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:07:21.152Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:07:21.165Z - Time taken for 'build-project-configs' 1103.4317919993773ms
+[NX Daemon Server] - 2024-10-27T14:07:21.477Z - Time taken for '@nx/vite/plugin:createDependencies' 315.32566699944437ms
+[NX Daemon Server] - 2024-10-27T14:07:22.891Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:07:22.891Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:07:22.891Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:07:22.892Z - Time taken for 'total execution time for createProjectGraph()' 332.3700419999659ms
+[NX Daemon Server] - 2024-10-27T14:08:45.366Z - [WATCHER]: prisma/schema.prisma was modified
+[NX Daemon Server] - 2024-10-27T14:08:45.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:08:46.173Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:08:46.173Z - [REQUEST]: prisma/schema.prisma
+[NX Daemon Server] - 2024-10-27T14:08:46.173Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:08:46.203Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.204Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.204Z - Handled HASH_GLOB. Handling time: 8. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:08:46.204Z - Time taken for 'hash changed files from watcher' 1.0671250000596046ms
+[NX Daemon Server] - 2024-10-27T14:08:46.205Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.205Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.205Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:46.207Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.207Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.207Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:46.208Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.208Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.208Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:46.209Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.209Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.209Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:46.209Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.210Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.210Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:08:46.211Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.211Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:46.211Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:46.248Z - Time taken for 'build-project-configs' 66.24433399923146ms
+[NX Daemon Server] - 2024-10-27T14:08:46.252Z - Time taken for '@nx/vite/plugin:createDependencies' 7.765833999961615ms
+[NX Daemon Server] - 2024-10-27T14:08:46.274Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:08:46.275Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:08:46.275Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:08:46.275Z - Time taken for 'total execution time for createProjectGraph()' 21.829541999846697ms
+[NX Daemon Server] - 2024-10-27T14:08:46.645Z - [WATCHER]: prisma/schema.prisma was modified
+[NX Daemon Server] - 2024-10-27T14:08:46.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:08:48.247Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:08:48.247Z - [REQUEST]: prisma/schema.prisma
+[NX Daemon Server] - 2024-10-27T14:08:48.247Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:08:48.259Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.259Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.259Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:48.261Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.262Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.262Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:08:48.263Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.263Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.263Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:48.264Z - Time taken for 'hash changed files from watcher' 0.6964159999042749ms
+[NX Daemon Server] - 2024-10-27T14:08:48.265Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.266Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.266Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:08:48.269Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.269Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.269Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:08:48.272Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.273Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.273Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:08:48.275Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.278Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:08:48.278Z - Handled HASH_GLOB. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-10-27T14:08:48.293Z - Time taken for 'build-project-configs' 38.71266600023955ms
+[NX Daemon Server] - 2024-10-27T14:08:48.298Z - Time taken for '@nx/vite/plugin:createDependencies' 8.281791999936104ms
+[NX Daemon Server] - 2024-10-27T14:08:48.314Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:08:48.314Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:08:48.314Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:08:48.314Z - Time taken for 'total execution time for createProjectGraph()' 20.03416599985212ms
+[NX Daemon Server] - 2024-10-27T14:09:24.595Z - [WATCHER]: prisma/db/goodot.db-journal was created or restored
+[NX Daemon Server] - 2024-10-27T14:09:24.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:09:24.699Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:09:24.699Z - [REQUEST]: prisma/db/goodot.db-journal
+[NX Daemon Server] - 2024-10-27T14:09:24.699Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:09:24.714Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.714Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.714Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:24.717Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.717Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.717Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:24.719Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.720Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.720Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:09:24.720Z - Time taken for 'hash changed files from watcher' 0.5348749998956919ms
+[NX Daemon Server] - 2024-10-27T14:09:24.722Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.722Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.722Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:24.723Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.723Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.723Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:24.724Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.724Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.724Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:24.725Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.725Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:24.725Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:24.755Z - Time taken for 'build-project-configs' 48.40695800073445ms
+[NX Daemon Server] - 2024-10-27T14:09:24.760Z - Time taken for '@nx/vite/plugin:createDependencies' 8.013375000096858ms
+[NX Daemon Server] - 2024-10-27T14:09:24.778Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:09:24.778Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:09:24.778Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:09:24.778Z - Time taken for 'total execution time for createProjectGraph()' 22.106041999533772ms
+[NX Daemon Server] - 2024-10-27T14:09:25.948Z - [WATCHER]: prisma/db/goodot.db-journal was deleted
+[NX Daemon Server] - 2024-10-27T14:09:25.949Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:09:26.151Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:09:26.151Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:09:26.151Z - [REQUEST]: prisma/db/goodot.db-journal
+[NX Daemon Server] - 2024-10-27T14:09:26.172Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.172Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.172Z - Handled GLOB. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.174Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.174Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.174Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.176Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.176Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.176Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.178Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.178Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.178Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.178Z - Time taken for 'hash changed files from watcher' 0.6734579997137189ms
+[NX Daemon Server] - 2024-10-27T14:09:26.179Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.179Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.179Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.182Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.182Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.182Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.184Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.184Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:26.184Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:26.201Z - Time taken for 'build-project-configs' 40.48891699966043ms
+[NX Daemon Server] - 2024-10-27T14:09:26.206Z - Time taken for '@nx/vite/plugin:createDependencies' 8.731250000186265ms
+[NX Daemon Server] - 2024-10-27T14:09:26.231Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:09:26.231Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:09:26.231Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:09:26.231Z - Time taken for 'total execution time for createProjectGraph()' 30.04550000000745ms
+[NX Daemon Server] - 2024-10-27T14:09:29.848Z - [WATCHER]: 2 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-10-27T14:09:29.848Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:09:29.951Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:09:29.951Z - [REQUEST]: prisma/db/goodot.db-journal,prisma/migrations/20241027140929_full_structure_relation/migration.sql,prisma/migrations/migration_lock.toml,prisma/db/goodot.db
+[NX Daemon Server] - 2024-10-27T14:09:29.951Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:09:29.956Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.956Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.956Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.956Z - Time taken for 'hash changed files from watcher' 0.7635000003501773ms
+[NX Daemon Server] - 2024-10-27T14:09:29.957Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.957Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.957Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.958Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.958Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.958Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.960Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.960Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.960Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.963Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.963Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.963Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.965Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.965Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.965Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.967Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.967Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:29.967Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:29.983Z - Time taken for 'build-project-configs' 28.9627080000937ms
+[NX Daemon Server] - 2024-10-27T14:09:29.987Z - Time taken for '@nx/vite/plugin:createDependencies' 5.608416999690235ms
+[NX Daemon Server] - 2024-10-27T14:09:29.998Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:09:29.998Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:09:29.998Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:09:29.998Z - Time taken for 'total execution time for createProjectGraph()' 12.866624999791384ms
+[NX Daemon Server] - 2024-10-27T14:09:36.566Z - [WATCHER]: prisma/db/goodot.db was modified
+[NX Daemon Server] - 2024-10-27T14:09:36.568Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:09:36.770Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:09:36.770Z - [REQUEST]: prisma/db/goodot.db
+[NX Daemon Server] - 2024-10-27T14:09:36.770Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:09:36.794Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.795Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.795Z - Handled GLOB. Handling time: 7. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:09:36.795Z - Time taken for 'hash changed files from watcher' 0.7410000003874302ms
+[NX Daemon Server] - 2024-10-27T14:09:36.797Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.797Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.797Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:36.799Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.799Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.799Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:36.800Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.800Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.800Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:36.802Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.802Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.802Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:36.803Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.803Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.803Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:36.804Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.804Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:09:36.804Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:09:36.824Z - Time taken for 'build-project-configs' 47.04308399930596ms
+[NX Daemon Server] - 2024-10-27T14:09:36.828Z - Time taken for '@nx/vite/plugin:createDependencies' 7.510999999940395ms
+[NX Daemon Server] - 2024-10-27T14:09:36.849Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:09:36.849Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:09:36.849Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:09:36.849Z - Time taken for 'total execution time for createProjectGraph()' 23.957041000016034ms
+[NX Daemon Server] - 2024-10-27T14:11:17.288Z - [WATCHER]: prisma/schema.prisma was modified
+[NX Daemon Server] - 2024-10-27T14:11:17.290Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:11:17.693Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:11:17.693Z - [REQUEST]: prisma/schema.prisma
+[NX Daemon Server] - 2024-10-27T14:11:17.693Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:11:17.710Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.710Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.710Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.712Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.712Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.712Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.714Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.714Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.714Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.717Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.717Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.717Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.717Z - Time taken for 'hash changed files from watcher' 0.7905419999733567ms
+[NX Daemon Server] - 2024-10-27T14:11:17.718Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.718Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.718Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.719Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.719Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.719Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.720Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.720Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:17.720Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:17.747Z - Time taken for 'build-project-configs' 45.284249999560416ms
+[NX Daemon Server] - 2024-10-27T14:11:17.751Z - Time taken for '@nx/vite/plugin:createDependencies' 8.213124999776483ms
+[NX Daemon Server] - 2024-10-27T14:11:17.771Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:11:17.771Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:11:17.771Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:11:17.771Z - Time taken for 'total execution time for createProjectGraph()' 22.471875000745058ms
+[NX Daemon Server] - 2024-10-27T14:11:43.767Z - [WATCHER]: prisma/schema.prisma was modified
+[NX Daemon Server] - 2024-10-27T14:11:43.768Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:11:44.570Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:11:44.570Z - [REQUEST]: prisma/schema.prisma
+[NX Daemon Server] - 2024-10-27T14:11:44.570Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:11:44.585Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.586Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.586Z - Handled GLOB. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:11:44.588Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.588Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.588Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:44.590Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.590Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.590Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:44.590Z - Time taken for 'hash changed files from watcher' 0.6793750002980232ms
+[NX Daemon Server] - 2024-10-27T14:11:44.594Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.595Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.595Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:11:44.597Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.597Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.597Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:44.599Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.599Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.599Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:44.601Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.601Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:44.601Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:44.627Z - Time taken for 'build-project-configs' 47.924792000092566ms
+[NX Daemon Server] - 2024-10-27T14:11:44.631Z - Time taken for '@nx/vite/plugin:createDependencies' 8.087082999758422ms
+[NX Daemon Server] - 2024-10-27T14:11:44.649Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:11:44.649Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:11:44.649Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:11:44.649Z - Time taken for 'total execution time for createProjectGraph()' 21.573166000656784ms
+[NX Daemon Server] - 2024-10-27T14:11:50.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:11:50.138Z - [WATCHER]: 1 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-10-27T14:11:50.240Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:11:50.241Z - [REQUEST]: prisma/migrations/20241027141150_full_structure_relation/migration.sql,prisma/db/goodot.db-journal,prisma/migrations/migration_lock.toml,prisma/db/goodot.db
+[NX Daemon Server] - 2024-10-27T14:11:50.241Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:11:50.245Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.245Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.245Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:50.245Z - Time taken for 'hash changed files from watcher' 0.292624999769032ms
+[NX Daemon Server] - 2024-10-27T14:11:50.246Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.246Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.246Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:50.247Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.247Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.247Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:50.248Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.248Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.248Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:50.249Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.249Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.249Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:50.251Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.252Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.252Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:11:50.255Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.255Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:11:50.255Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:11:50.281Z - Time taken for 'build-project-configs' 32.36904199980199ms
+[NX Daemon Server] - 2024-10-27T14:11:50.290Z - Time taken for '@nx/vite/plugin:createDependencies' 14.797749999910593ms
+[NX Daemon Server] - 2024-10-27T14:11:50.302Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:11:50.302Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:11:50.302Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:11:50.302Z - Time taken for 'total execution time for createProjectGraph()' 22.63662499934435ms
+[NX Daemon Server] - 2024-10-27T14:13:39.642Z - [WATCHER]: apps/goodot/src/server/api/addRepository.ts was modified
+[NX Daemon Server] - 2024-10-27T14:13:39.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:13:39.867Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:13:39.867Z - [REQUEST]: apps/goodot/src/server/api/addRepository.ts
+[NX Daemon Server] - 2024-10-27T14:13:39.867Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:13:39.900Z - Time taken for 'hash changed files from watcher' 16.6962919998914ms
+[NX Daemon Server] - 2024-10-27T14:13:39.914Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.914Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.915Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:13:39.917Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.917Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.917Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:39.918Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.918Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.918Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:39.920Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.920Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.920Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:39.921Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.921Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.921Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:39.923Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.924Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.924Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:13:39.964Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.964Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:39.964Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:40.004Z - Time taken for 'build-project-configs' 117.34412499982864ms
+[NX Daemon Server] - 2024-10-27T14:13:40.007Z - Time taken for '@nx/vite/plugin:createDependencies' 4.7991249999031425ms
+[NX Daemon Server] - 2024-10-27T14:13:40.107Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:13:40.107Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:13:40.107Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:13:40.107Z - Time taken for 'total execution time for createProjectGraph()' 101.21945900004357ms
+[NX Daemon Server] - 2024-10-27T14:13:40.268Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-10-27T14:13:40.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:13:40.462Z - [WATCHER]: apps/goodot/.nuxt/nitro.json was modified
+[NX Daemon Server] - 2024-10-27T14:13:40.462Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:13:40.669Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:13:40.669Z - [REQUEST]: apps/goodot/.nuxt/dev/index.mjs.map,apps/goodot/.nuxt/dev/index.mjs,prisma/db/goodot.db,apps/goodot/.nuxt/nitro.json
+[NX Daemon Server] - 2024-10-27T14:13:40.669Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:13:40.684Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.684Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.684Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:40.687Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.687Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.687Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:40.688Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.688Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.688Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:40.691Z - Time taken for 'hash changed files from watcher' 0.8876660000532866ms
+[NX Daemon Server] - 2024-10-27T14:13:40.693Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.693Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.693Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:40.698Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.698Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.698Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:40.699Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.700Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.700Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:13:40.741Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.742Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:40.742Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:13:40.758Z - Time taken for 'build-project-configs' 83.26929199974984ms
+[NX Daemon Server] - 2024-10-27T14:13:40.761Z - Time taken for '@nx/vite/plugin:createDependencies' 5.235375000163913ms
+[NX Daemon Server] - 2024-10-27T14:13:40.842Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:13:40.842Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:13:40.842Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:13:40.842Z - Time taken for 'total execution time for createProjectGraph()' 82.04020899999887ms
+[NX Daemon Server] - 2024-10-27T14:13:43.787Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-10-27T14:13:43.787Z - [WATCHER]: prisma/db/goodot.db-journal was deleted
+[NX Daemon Server] - 2024-10-27T14:13:44.590Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-10-27T14:13:44.590Z - [REQUEST]: 
+[NX Daemon Server] - 2024-10-27T14:13:44.590Z - [REQUEST]: prisma/db/goodot.db-journal
+[NX Daemon Server] - 2024-10-27T14:13:44.603Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.603Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.603Z - Handled GLOB. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:44.604Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.605Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.605Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-10-27T14:13:44.608Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.608Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.608Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:44.608Z - Time taken for 'hash changed files from watcher' 0.6105829998850822ms
+[NX Daemon Server] - 2024-10-27T14:13:44.610Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.610Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.610Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:44.612Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.612Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.612Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:44.614Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.614Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.614Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:44.616Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.616Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-10-27T14:13:44.616Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-10-27T14:13:44.646Z - Time taken for 'build-project-configs' 49.27566700056195ms
+[NX Daemon Server] - 2024-10-27T14:13:44.651Z - Time taken for '@nx/vite/plugin:createDependencies' 7.348083999939263ms
+[NX Daemon Server] - 2024-10-27T14:13:44.666Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-10-27T14:13:44.667Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-10-27T14:13:44.667Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-10-27T14:13:44.667Z - Time taken for 'total execution time for createProjectGraph()' 19.44116699974984ms
