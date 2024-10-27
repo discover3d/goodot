@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/debian/goodot/nuxt/goodot/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/nicolasvilla/goodot/nuxtGoodot/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/home/debian/goodot/nuxt/goodot/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/nicolasvilla/goodot/nuxtGoodot/node_modules/nuxt/dist/app/entry.js"
   }
 }

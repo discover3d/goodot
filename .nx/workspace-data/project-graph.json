@@ -14670,47 +14670,7 @@
       },
       {
         "source": "goodot",
-        "target": "npm:ofetch",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:hookable",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:unctx",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:h3",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:unhead",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:@unhead/shared",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
         "target": "npm:vue-router",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:radix3",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:ufo",
         "type": "static"
       },
       {
@@ -14721,6 +14681,11 @@
       {
         "source": "goodot",
         "target": "npm:nuxt",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:h3",
         "type": "static"
       },
       {
