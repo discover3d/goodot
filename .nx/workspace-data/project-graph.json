@@ -4620,6 +4620,60 @@
         "hash": "sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw=="
       }
     },
+    "npm:@prisma/client": {
+      "type": "npm",
+      "name": "npm:@prisma/client",
+      "data": {
+        "version": "5.21.1",
+        "packageName": "@prisma/client",
+        "hash": "sha512-3n+GgbAZYjaS/k0M03yQsQfR1APbr411r74foknnsGpmhNKBG49VuUkxIU6jORgvJPChoD4WC4PqoHImN1FP0w=="
+      }
+    },
+    "npm:@prisma/debug": {
+      "type": "npm",
+      "name": "npm:@prisma/debug",
+      "data": {
+        "version": "5.21.1",
+        "packageName": "@prisma/debug",
+        "hash": "sha512-uY8SAhcnORhvgtOrNdvWS98Aq/nkQ9QDUxrWAgW8XrCZaI3j2X7zb7Xe6GQSh6xSesKffFbFlkw0c2luHQviZA=="
+      }
+    },
+    "npm:@prisma/engines": {
+      "type": "npm",
+      "name": "npm:@prisma/engines",
+      "data": {
+        "version": "5.21.1",
+        "packageName": "@prisma/engines",
+        "hash": "sha512-hGVTldUkIkTwoV8//hmnAAiAchi4oMEKD3aW5H2RrnI50tTdwza7VQbTTAyN3OIHWlK5DVg6xV7X8N/9dtOydA=="
+      }
+    },
+    "npm:@prisma/engines-version": {
+      "type": "npm",
+      "name": "npm:@prisma/engines-version",
+      "data": {
+        "version": "5.21.1-1.bf0e5e8a04cada8225617067eaa03d041e2bba36",
+        "packageName": "@prisma/engines-version",
+        "hash": "sha512-qvnEflL0//lh44S/T9NcvTMxfyowNeUxTunPcDfKPjyJNrCNf2F1zQLcUv5UHAruECpX+zz21CzsC7V2xAeM7Q=="
+      }
+    },
+    "npm:@prisma/fetch-engine": {
+      "type": "npm",
+      "name": "npm:@prisma/fetch-engine",
+      "data": {
+        "version": "5.21.1",
+        "packageName": "@prisma/fetch-engine",
+        "hash": "sha512-70S31vgpCGcp9J+mh/wHtLCkVezLUqe/fGWk3J3JWZIN7prdYSlr1C0niaWUyNK2VflLXYi8kMjAmSxUVq6WGQ=="
+      }
+    },
+    "npm:@prisma/get-platform": {
+      "type": "npm",
+      "name": "npm:@prisma/get-platform",
+      "data": {
+        "version": "5.21.1",
+        "packageName": "@prisma/get-platform",
+        "hash": "sha512-sRxjL3Igst3ct+e8ya/x//cDXmpLbZQ5vfps2N4tWl4VGKQAmym77C/IG/psSMsQKszc8uFC/q1dgmKFLUgXZQ=="
+      }
+    },
     "npm:@rollup/plugin-alias": {
       "type": "npm",
       "name": "npm:@rollup/plugin-alias",
@@ -4717,24 +4771,6 @@
         "version": "4.2.1",
         "packageName": "@rollup/pluginutils",
         "hash": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ=="
-      }
-    },
-    "npm:picomatch@4.0.2": {
-      "type": "npm",
-      "name": "npm:picomatch@4.0.2",
-      "data": {
-        "version": "4.0.2",
-        "packageName": "picomatch",
-        "hash": "sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg=="
-      }
-    },
-    "npm:picomatch": {
-      "type": "npm",
-      "name": "npm:picomatch",
-      "data": {
-        "version": "2.3.1",
-        "packageName": "picomatch",
-        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
       }
     },
     "npm:@rollup/rollup-android-arm-eabi": {
@@ -5617,6 +5653,24 @@
         "version": "0.26.5",
         "packageName": "@vercel/nft",
         "hash": "sha512-NHxohEqad6Ra/r4lGknO52uc/GrWILXAMs1BB4401GTqww0fw1bAqzpG1XHuDO+dprg4GvsD9ZLLSsdo78p9hQ=="
+      }
+    },
+    "npm:picomatch@2.3.1": {
+      "type": "npm",
+      "name": "npm:picomatch@2.3.1",
+      "data": {
+        "version": "2.3.1",
+        "packageName": "picomatch",
+        "hash": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
+      }
+    },
+    "npm:picomatch": {
+      "type": "npm",
+      "name": "npm:picomatch",
+      "data": {
+        "version": "4.0.2",
+        "packageName": "picomatch",
+        "hash": "sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg=="
       }
     },
     "npm:resolve-from@5.0.0": {
@@ -10866,6 +10920,15 @@
         "hash": "sha512-BFRuQUqc7x2NWxfJBCyUrN8iYUYznzL9JROmRz1gZ6KlOIgmoD+njPVbb+VNn2nGMKggMsK79iUNErillsrx7w=="
       }
     },
+    "npm:loose-envify": {
+      "type": "npm",
+      "name": "npm:loose-envify",
+      "data": {
+        "version": "1.4.0",
+        "packageName": "loose-envify",
+        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
+      }
+    },
     "npm:loupe": {
       "type": "npm",
       "name": "npm:loupe",
@@ -12180,6 +12243,15 @@
         "hash": "sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ=="
       }
     },
+    "npm:prisma": {
+      "type": "npm",
+      "name": "npm:prisma",
+      "data": {
+        "version": "5.21.1",
+        "packageName": "prisma",
+        "hash": "sha512-PB+Iqzld/uQBPaaw2UVIk84kb0ITsLajzsxzsadxxl54eaU5Gyl2/L02ysivHxK89t7YrfQJm+Ggk37uvM70oQ=="
+      }
+    },
     "npm:process": {
       "type": "npm",
       "name": "npm:process",
@@ -12394,6 +12466,24 @@
         "version": "2.1.2",
         "packageName": "rc9",
         "hash": "sha512-btXCnMmRIBINM2LDZoEmOogIZU7Qe7zn4BpomSKZ/ykbLObuBdvG+mFq11DL6fjH1DRwHhrlgtYWG96bJiC7Cg=="
+      }
+    },
+    "npm:react": {
+      "type": "npm",
+      "name": "npm:react",
+      "data": {
+        "version": "18.3.1",
+        "packageName": "react",
+        "hash": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ=="
+      }
+    },
+    "npm:react-dom": {
+      "type": "npm",
+      "name": "npm:react-dom",
+      "data": {
+        "version": "18.3.1",
+        "packageName": "react-dom",
+        "hash": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
       }
     },
     "npm:react-is": {
@@ -12790,6 +12880,15 @@
         "version": "6.0.0",
         "packageName": "saxes",
         "hash": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA=="
+      }
+    },
+    "npm:scheduler": {
+      "type": "npm",
+      "name": "npm:scheduler",
+      "data": {
+        "version": "0.23.2",
+        "packageName": "scheduler",
+        "hash": "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ=="
       }
     },
     "npm:scslre": {
@@ -14561,6 +14660,96 @@
     "goodot": [
       {
         "source": "goodot",
+        "target": "npm:defu",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:vue",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:ofetch",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:hookable",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:unctx",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:h3",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:unhead",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:@unhead/shared",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:vue-router",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:radix3",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:ufo",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:@unhead/vue",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:nuxt",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:consola",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:nitropack",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:@nuxt/schema",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:@nuxt/devtools",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
+        "target": "npm:@nuxt/telemetry",
+        "type": "static"
+      },
+      {
+        "source": "goodot",
         "target": "npm:@eslint/eslintrc",
         "type": "static"
       },
@@ -14581,12 +14770,7 @@
       },
       {
         "source": "goodot",
-        "target": "npm:nuxt",
-        "type": "static"
-      },
-      {
-        "source": "goodot",
-        "target": "npm:h3",
+        "target": "npm:@prisma/client",
         "type": "static"
       },
       {
@@ -17072,6 +17256,16 @@
       }
     ],
     "npm:@module-federation/data-prefetch": [
+      {
+        "source": "npm:@module-federation/data-prefetch",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@module-federation/data-prefetch",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
       {
         "source": "npm:@module-federation/data-prefetch",
         "target": "npm:@module-federation/runtime",
@@ -20176,6 +20370,59 @@
         "type": "static"
       }
     ],
+    "npm:@prisma/client": [
+      {
+        "source": "npm:@prisma/client",
+        "target": "npm:prisma",
+        "type": "static"
+      }
+    ],
+    "npm:@prisma/engines": [
+      {
+        "source": "npm:@prisma/engines",
+        "target": "npm:@prisma/debug",
+        "type": "static"
+      },
+      {
+        "source": "npm:@prisma/engines",
+        "target": "npm:@prisma/engines-version",
+        "type": "static"
+      },
+      {
+        "source": "npm:@prisma/engines",
+        "target": "npm:@prisma/fetch-engine",
+        "type": "static"
+      },
+      {
+        "source": "npm:@prisma/engines",
+        "target": "npm:@prisma/get-platform",
+        "type": "static"
+      }
+    ],
+    "npm:@prisma/fetch-engine": [
+      {
+        "source": "npm:@prisma/fetch-engine",
+        "target": "npm:@prisma/debug",
+        "type": "static"
+      },
+      {
+        "source": "npm:@prisma/fetch-engine",
+        "target": "npm:@prisma/engines-version",
+        "type": "static"
+      },
+      {
+        "source": "npm:@prisma/fetch-engine",
+        "target": "npm:@prisma/get-platform",
+        "type": "static"
+      }
+    ],
+    "npm:@prisma/get-platform": [
+      {
+        "source": "npm:@prisma/get-platform",
+        "target": "npm:@prisma/debug",
+        "type": "static"
+      }
+    ],
     "npm:@rollup/plugin-alias": [
       {
         "source": "npm:@rollup/plugin-alias",
@@ -20377,7 +20624,7 @@
       },
       {
         "source": "npm:@rollup/pluginutils",
-        "target": "npm:picomatch@4.0.2",
+        "target": "npm:picomatch",
         "type": "static"
       }
     ],
@@ -20477,7 +20724,7 @@
       },
       {
         "source": "npm:@stylistic/eslint-plugin",
-        "target": "npm:picomatch@4.0.2",
+        "target": "npm:picomatch",
         "type": "static"
       }
     ],
@@ -21204,7 +21451,7 @@
       },
       {
         "source": "npm:@rollup/pluginutils@4.2.1",
-        "target": "npm:picomatch",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -22247,7 +22494,7 @@
       },
       {
         "source": "npm:anymatch",
-        "target": "npm:picomatch",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -25049,6 +25296,13 @@
         "type": "static"
       }
     ],
+    "npm:fdir": [
+      {
+        "source": "npm:fdir",
+        "target": "npm:picomatch",
+        "type": "static"
+      }
+    ],
     "npm:figures": [
       {
         "source": "npm:figures",
@@ -26396,7 +26650,7 @@
       },
       {
         "source": "npm:jest-util",
-        "target": "npm:picomatch",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -27067,6 +27321,13 @@
         "type": "static"
       }
     ],
+    "npm:loose-envify": [
+      {
+        "source": "npm:loose-envify",
+        "target": "npm:js-tokens",
+        "type": "static"
+      }
+    ],
     "npm:loupe": [
       {
         "source": "npm:loupe",
@@ -27201,7 +27462,7 @@
       },
       {
         "source": "npm:micromatch",
-        "target": "npm:picomatch",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -29919,6 +30180,18 @@
         "type": "static"
       }
     ],
+    "npm:prisma": [
+      {
+        "source": "npm:prisma",
+        "target": "npm:@prisma/engines",
+        "type": "static"
+      },
+      {
+        "source": "npm:prisma",
+        "target": "npm:fsevents",
+        "type": "static"
+      }
+    ],
     "npm:promise-retry": [
       {
         "source": "npm:promise-retry",
@@ -30000,6 +30273,30 @@
       {
         "source": "npm:rc9",
         "target": "npm:destr",
+        "type": "static"
+      }
+    ],
+    "npm:react": [
+      {
+        "source": "npm:react",
+        "target": "npm:loose-envify",
+        "type": "static"
+      }
+    ],
+    "npm:react-dom": [
+      {
+        "source": "npm:react-dom",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-dom",
+        "target": "npm:loose-envify",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-dom",
+        "target": "npm:scheduler",
         "type": "static"
       }
     ],
@@ -30165,7 +30462,7 @@
     "npm:readdirp": [
       {
         "source": "npm:readdirp",
-        "target": "npm:picomatch",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -30408,7 +30705,7 @@
       },
       {
         "source": "npm:rollup-plugin-visualizer",
-        "target": "npm:picomatch",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       },
       {
@@ -30479,6 +30776,13 @@
       {
         "source": "npm:saxes",
         "target": "npm:xmlchars",
+        "type": "static"
+      }
+    ],
+    "npm:scheduler": [
+      {
+        "source": "npm:scheduler",
+        "target": "npm:loose-envify",
         "type": "static"
       }
     ],
@@ -31436,7 +31740,7 @@
       },
       {
         "source": "npm:tinyglobby",
-        "target": "npm:picomatch@4.0.2",
+        "target": "npm:picomatch",
         "type": "static"
       }
     ],

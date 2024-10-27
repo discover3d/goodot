@@ -37,56 +37,80 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11970864265011036428"
+        "file": "prisma/db/goodot.db",
+        "hash": "545792546971101659"
       },
       {
         "file": "README.md",
         "hash": "17872556332324630877"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "16362845859510497250"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "13509700000911259425"
-      },
-      {
-        "file": "nx.json",
-        "hash": "8312142782832817177"
+        "file": "prisma/db/goodot.db-journal",
+        "hash": "4844087258158684172"
       },
       {
         "file": "package.json",
-        "hash": "10771802472578410000"
+        "hash": "4138742327054406107"
+      },
+      {
+        "file": "prisma/schema.prisma",
+        "hash": "14473077191199992387"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
       },
       {
+        "file": "nx.json",
+        "hash": "8312142782832817177"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16362845859510497250"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
         "file": ".github/workflows/ci.yml",
         "hash": "1380489499603536477"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15851414276814639374"
+        "file": ".env",
+        "hash": "12756446777390199363"
+      },
+      {
+        "file": "prisma/migrations/migration_lock.toml",
+        "hash": "10997593172930738585"
+      },
+      {
+        "file": "prisma/migrations/20241026165028_init/migration.sql",
+        "hash": "14934145557009873688"
       },
       {
         "file": "vitest.workspace.ts",
         "hash": "7870362608836821141"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9379614031737854410"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "13509700000911259425"
       }
     ],
     "projectFileMap": {
@@ -94,6 +118,1605 @@
         {
           "file": "apps/goodot/.npmrc",
           "hash": "1829183420567411207"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/assets/diff.worker-0f10460a.js",
+          "hash": "9454470526742054417"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/assets/index-3377fd33.css",
+          "hash": "16690644037157855831"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/assets/index-a8cb5f05.js",
+          "hash": "10007884771133689869"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/assets/index-d51e03c4.js",
+          "hash": "4545150620264398799"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/favicon.svg",
+          "hash": "1156658406319518969"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/index.html",
+          "hash": "10668139144558497293"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/list.json",
+          "hash": "17405566671500200751"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/metrics-ssr.json",
+          "hash": "14374748069474422108"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/metrics.json",
+          "hash": "8635649981455468362"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/0M8Ql2Bi8c.json",
+          "hash": "15437377499083766337"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/0ccAyvkchR.json",
+          "hash": "10606684876724705765"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/3GKK9v2HEY.json",
+          "hash": "7109301156630545188"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/3q2irlQftr.json",
+          "hash": "18274266831759204725"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/4QGvdXLEXC.json",
+          "hash": "8975300802143392341"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/4YuCeC7wmZ.json",
+          "hash": "13768348456610435980"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/6WqdDbmstc.json",
+          "hash": "14658303560231810784"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/7lxYUQ5KNE.json",
+          "hash": "9379195429784206732"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/84AJgv8VXU.json",
+          "hash": "15050872685274210693"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/AidbVy79xF.json",
+          "hash": "15250516363913089580"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/BKbCy9XyNQ.json",
+          "hash": "2389249153833895271"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/BiB7XK24ky.json",
+          "hash": "13445256423321426974"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/Bw0O3QinwG.json",
+          "hash": "12910018990583441463"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/CO3c7x7yGN.json",
+          "hash": "12349311412288153761"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/CsWIjWI4vF.json",
+          "hash": "8582822285580655929"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/CwJ7LEnVME.json",
+          "hash": "15607169909078758381"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/DW8rRTmXXs.json",
+          "hash": "9546467260561126724"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/EZwY5IJzdc.json",
+          "hash": "6737801544793637601"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/EcNQlqMq4U.json",
+          "hash": "8017076082768286816"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/FpqQlHcnTU.json",
+          "hash": "15271380430575747146"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/GGKtbP4mRD.json",
+          "hash": "4520630352406775086"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/IO6wRpFpj7.json",
+          "hash": "3448712556949642091"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/Kp5bvk4KRZ.json",
+          "hash": "7905174550538816586"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/Nqsm96cGDg.json",
+          "hash": "1991401338895306368"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/PBnp5OdrZ2.json",
+          "hash": "1234069282062757893"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/Q47mHOwy50.json",
+          "hash": "76295662883556097"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/Qt8SPV1SzO.json",
+          "hash": "7139202906608279773"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/SCOVyJKtwN.json",
+          "hash": "11961627980307347385"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/SdGBjUilTG.json",
+          "hash": "6115710571165570273"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/TNHqtcbDGF.json",
+          "hash": "10740326053356192869"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/TfDVRAxYMe.json",
+          "hash": "11890342235488675384"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/UCXAwxFXQo.json",
+          "hash": "7153386150573214740"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/UFYvswGxqI.json",
+          "hash": "2205019061155133506"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/V3Boh27iug.json",
+          "hash": "7882870633878365693"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/V730KYQiJx.json",
+          "hash": "15285276000104693105"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/V7FOEzIh8h.json",
+          "hash": "17902724942849884844"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/XHnUuPm16X.json",
+          "hash": "2890139079568070060"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/YM9TtNM3sy.json",
+          "hash": "9809992765491298335"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/Z1WWeX5SkH.json",
+          "hash": "12967971048218492169"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/ZR6bvSqOIR.json",
+          "hash": "17124114858413074200"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/ZdSU8qWuv4.json",
+          "hash": "9602167118892335058"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/ZsMbEw4XjF.json",
+          "hash": "17943433444908767216"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/aQqlyJiAKB.json",
+          "hash": "10273783548782665809"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/ailCKg3sJJ.json",
+          "hash": "11342803932641279701"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/d0MunCRcwn.json",
+          "hash": "18348056854485810104"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/d9ERrbrScp.json",
+          "hash": "5734441713452722774"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/dyEeXKlMGF.json",
+          "hash": "15496703612310668616"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/eD8mol4baM.json",
+          "hash": "2578507132813466277"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/eG4cc2cMVj.json",
+          "hash": "1160540704950733510"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/eyuMfmMdAw.json",
+          "hash": "2159459539466728571"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/fC196IgNfz.json",
+          "hash": "4700190793362409411"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/gRGHHUvbVs.json",
+          "hash": "10259995514744486636"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/hk9MmkFdCp.json",
+          "hash": "16951827294141354156"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/hvrCJiMElX.json",
+          "hash": "17630840295942374359"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/i44X7hjRtm.json",
+          "hash": "12879001612806843884"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/ifkcYfls3Y.json",
+          "hash": "9075699350354047932"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/jMWSLdXtbG.json",
+          "hash": "11046745466055641059"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/jmLK6kXiXd.json",
+          "hash": "16417446045190165335"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/kd9q39XhB8.json",
+          "hash": "14664445863229700347"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/nWTvhsxwli.json",
+          "hash": "11245274946411388052"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/pP4W1qhabo.json",
+          "hash": "12417860168649527466"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/qBJCFuSUH2.json",
+          "hash": "6192638947925011433"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/uqZUkwk1hQ.json",
+          "hash": "1601440091000098433"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/w04bBPaoyK.json",
+          "hash": "14081474858857029541"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/w0BTI2aEVE.json",
+          "hash": "6468391771685818734"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/wfzvNray1q.json",
+          "hash": "7999365740712496948"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/wxwbquakg2.json",
+          "hash": "11183361148661120351"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform-ssr/zlUZXtvZCD.json",
+          "hash": "15451744582064738672"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/0M8Ql2Bi8c.json",
+          "hash": "6684290118017344700"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/0vFSQTZcfh.json",
+          "hash": "3336050326714137668"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/1JFgje7Tqn.json",
+          "hash": "4341434569553722782"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/28ioH63boH.json",
+          "hash": "12310517128055251989"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/3GKK9v2HEY.json",
+          "hash": "3945229923915492074"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/3Y1fgL3w59.json",
+          "hash": "4872809516627421004"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/4QGvdXLEXC.json",
+          "hash": "15590362026049322616"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/4YuCeC7wmZ.json",
+          "hash": "16652935823712002978"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/53lNTrszuG.json",
+          "hash": "13875861384433767203"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/68EhFhn0vh.json",
+          "hash": "2903858860900577962"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/6WqdDbmstc.json",
+          "hash": "17301245344788674728"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/6Z2Uzl6WBw.json",
+          "hash": "9294834402389278155"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/76WftWy7ww.json",
+          "hash": "5271285095054578970"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/7lxYUQ5KNE.json",
+          "hash": "1669075444326685692"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/84AJgv8VXU.json",
+          "hash": "16350171887736422211"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/84RKyMoPYL.json",
+          "hash": "2817753113625880298"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/8Nl3zgEw4m.json",
+          "hash": "4977516472100565506"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/8qs18fJ3hw.json",
+          "hash": "2892688327777230305"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/961qCeoZEk.json",
+          "hash": "795442074554297485"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/AhbCxbqwc3.json",
+          "hash": "12460461444463694663"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/AidbVy79xF.json",
+          "hash": "3217049074764792487"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/BKRTa8JdOg.json",
+          "hash": "15351342369401234784"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/BKbCy9XyNQ.json",
+          "hash": "1414158912525749836"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/BiB7XK24ky.json",
+          "hash": "8901442524807365192"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Bw0O3QinwG.json",
+          "hash": "11806470360401862838"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ByAig9hxDW.json",
+          "hash": "10130303581982403608"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/CsWIjWI4vF.json",
+          "hash": "15539160151471745689"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/CwJ7LEnVME.json",
+          "hash": "7290745266768374587"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/DW8rRTmXXs.json",
+          "hash": "16671410074571234386"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/DbX9Ws0RR6.json",
+          "hash": "10237345859288833513"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/E1Lzu6ghWt.json",
+          "hash": "10536178768721281432"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/E3syvut9RC.json",
+          "hash": "8750291649584396134"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/EZwY5IJzdc.json",
+          "hash": "2512131596861581011"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/EcNQlqMq4U.json",
+          "hash": "12894010556613652899"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Ex7F7pX2FM.json",
+          "hash": "16678252944421030980"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/F4DwYAjTGo.json",
+          "hash": "5872910592416964350"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/F7wOIsFLxR.json",
+          "hash": "4477619516550440842"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/FpqQlHcnTU.json",
+          "hash": "6356845318413909957"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/GGKtbP4mRD.json",
+          "hash": "15030507574520618393"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/GqmrqLFwAk.json",
+          "hash": "2138127745849224620"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/H4ZEB8ZlWJ.json",
+          "hash": "13481907612009928196"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/H7NneW4IQ6.json",
+          "hash": "4601659597014552296"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Hod4QoQ1fj.json",
+          "hash": "6489205063649827636"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/HwdSEOlRi1.json",
+          "hash": "346171031967824328"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/IH5Wz1GcUC.json",
+          "hash": "17199086616139586530"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/IO6wRpFpj7.json",
+          "hash": "17030099114846465393"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Jk1WgTYzR4.json",
+          "hash": "10630221741265519354"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Kp5bvk4KRZ.json",
+          "hash": "4336696805958133191"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Nm040Wd8Uz.json",
+          "hash": "17129842164731649520"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Nqsm96cGDg.json",
+          "hash": "11649523639166314294"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/PBnp5OdrZ2.json",
+          "hash": "14162177699312561875"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/PMS9BK5NNX.json",
+          "hash": "12879493227679127128"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/PZseLVhk3P.json",
+          "hash": "5579650738360261079"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/PaOlIK9wnU.json",
+          "hash": "8591530875841660146"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Q10oeoYbCX.json",
+          "hash": "3687175999414023508"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Q47mHOwy50.json",
+          "hash": "4771324536005590776"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/QGjVxFb0NC.json",
+          "hash": "8161635135604622159"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Qt8SPV1SzO.json",
+          "hash": "6788156328437884813"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/SCOVyJKtwN.json",
+          "hash": "12567306528496314782"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/SK3ttkKuiS.json",
+          "hash": "15121601495698146115"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/SdGBjUilTG.json",
+          "hash": "14218197665631910501"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/SghnO4YPjw.json",
+          "hash": "671350974124792040"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/TNHqtcbDGF.json",
+          "hash": "4800757004490387633"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/TfDVRAxYMe.json",
+          "hash": "12364999024904650779"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/UFYvswGxqI.json",
+          "hash": "2949524037430164272"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/UJRf5NOKqx.json",
+          "hash": "12755027341952900745"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/V3Boh27iug.json",
+          "hash": "9631832383347762301"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/V456qpo2HC.json",
+          "hash": "3728608638732263651"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/V730KYQiJx.json",
+          "hash": "4251794850981710333"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/V7FOEzIh8h.json",
+          "hash": "7536843055268745082"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/VULty4FMZo.json",
+          "hash": "6315944969486467236"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/Vf50igBVD6.json",
+          "hash": "135966159457614474"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/X1G33IH0EK.json",
+          "hash": "13277347211170704312"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/XHnUuPm16X.json",
+          "hash": "16383017650012769850"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/XmHqFxDUcU.json",
+          "hash": "584257843776811599"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ZR6bvSqOIR.json",
+          "hash": "16979455781010257202"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ZrbbirydvY.json",
+          "hash": "16759425204477653451"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ZsMbEw4XjF.json",
+          "hash": "9624006136125862183"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/a5TVNrDTKY.json",
+          "hash": "7926112679280712595"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/aD1uD5rWhB.json",
+          "hash": "10849260345928198639"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/aQqlyJiAKB.json",
+          "hash": "3768460762577265215"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/aSNodtfcAB.json",
+          "hash": "12786931631382566583"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/afXeRvXgHk.json",
+          "hash": "6745932048122574762"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ailCKg3sJJ.json",
+          "hash": "10226489719699790154"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/bMUQE5cOmI.json",
+          "hash": "6330057399244630216"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/bUlUOGJh41.json",
+          "hash": "4997347599770108176"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/bwgVV9CyF3.json",
+          "hash": "18417497806109826310"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/cMc6YwR5q3.json",
+          "hash": "10141185069051591951"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/d0MunCRcwn.json",
+          "hash": "122520443309057649"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/d9ERrbrScp.json",
+          "hash": "5688694613760279037"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/dyEeXKlMGF.json",
+          "hash": "12044919022427121866"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/e4hehSdd00.json",
+          "hash": "68352250868095435"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/eG4cc2cMVj.json",
+          "hash": "344323509641495967"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/eyuMfmMdAw.json",
+          "hash": "11862707367797083053"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/fC196IgNfz.json",
+          "hash": "12323138284421473350"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/gRGHHUvbVs.json",
+          "hash": "10530218220736108534"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/hk9MmkFdCp.json",
+          "hash": "10728330222372132682"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/i44X7hjRtm.json",
+          "hash": "32748492801817908"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/iBdZ9zbWoA.json",
+          "hash": "3757596808826512188"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ifkcYfls3Y.json",
+          "hash": "17729544291762000261"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ihEAHXGJ0D.json",
+          "hash": "13528833909658335882"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/jMWSLdXtbG.json",
+          "hash": "10412816771334633837"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/jRGle5asva.json",
+          "hash": "17293976671725106308"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/jY0uJs4wCQ.json",
+          "hash": "7276837106233537989"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/jmLK6kXiXd.json",
+          "hash": "7077578649933632283"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/kcQR1LXwO4.json",
+          "hash": "15279230739963754028"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/kd9q39XhB8.json",
+          "hash": "10320978308913309650"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/kvYCA9Phmr.json",
+          "hash": "7364448698705435909"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/lYKQQ5hLWz.json",
+          "hash": "18002033476904612429"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/mvxyT4mjzt.json",
+          "hash": "5595969656217870596"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/nFEUiukFxF.json",
+          "hash": "8027041236688146745"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/nWTvhsxwli.json",
+          "hash": "16729573695650535422"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/ngDs3HK30u.json",
+          "hash": "433690089294049335"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/pP4W1qhabo.json",
+          "hash": "9681142751209890527"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/q91DsKyVMa.json",
+          "hash": "1593994763706093245"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/qBJCFuSUH2.json",
+          "hash": "16528121311454919141"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/qmjDdme3Kd.json",
+          "hash": "17429715540244546144"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/rs3TluG2zW.json",
+          "hash": "256469032730220039"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/sLwzWB2cVg.json",
+          "hash": "12189426594827864207"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/uqZUkwk1hQ.json",
+          "hash": "13043012826850336262"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/w04bBPaoyK.json",
+          "hash": "3183507598213610313"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/w0BTI2aEVE.json",
+          "hash": "1919779931202585801"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/wxwbquakg2.json",
+          "hash": "17797142561939919472"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/zVrcrQwoJl.json",
+          "hash": "9802352497814258892"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/zXALgl4H9C.json",
+          "hash": "8535118616561221366"
+        },
+        {
+          "file": "apps/goodot/.nuxt/analyze/.vite-inspect/reports/transform/zlUZXtvZCD.json",
+          "hash": "9099200615758111603"
+        },
+        {
+          "file": "apps/goodot/.nuxt/app.config.mjs",
+          "hash": "12317262065474430240",
+          "deps": [
+            "npm:defu"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/components.d.ts",
+          "hash": "11675382216290630908",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/dev/index.mjs",
+          "hash": "4368098486272077366"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dev/index.mjs.map",
+          "hash": "9206997587802408964"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/BjaEPjLZ.js",
+          "hash": "10606399143724250072"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/C9jHcg-3.js",
+          "hash": "2864482189551232320"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/CMTcfP9U.js",
+          "hash": "15439238653275248899"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/DhFGgaeH.js",
+          "hash": "12273505001764206204"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/DiH1PTIg.js",
+          "hash": "17338585946612902136"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/about.vbFtJHG2.css",
+          "hash": "322817409612617598"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/entry.Su7xmw9w.css",
+          "hash": "17613408841203314570"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/error-404.99oquldU.css",
+          "hash": "8990550761275681443"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/error-500.BQ_oAPIi.css",
+          "hash": "14592104538308869694"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/index.BWiHq_bB.css",
+          "hash": "14234567995552384447"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/client/_nuxt/r6mBGZ-H.js",
+          "hash": "9431944384426170343"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/NxWelcome-styles-1.mjs-e12BnsjV.js",
+          "hash": "3970804861715233700"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/NxWelcome-styles-1.mjs-e12BnsjV.js.map",
+          "hash": "7376560506511423273"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/NxWelcome-styles-1.mjs-e12BnsjV.js.map.json",
+          "hash": "1526816606541659938"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/NxWelcome-styles.8ZakHpKu.mjs",
+          "hash": "12827233103898088478"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/NxWelcome-styles.C9G9TEo8.mjs",
+          "hash": "4121486709088374221"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-ZxZgZibE.js",
+          "hash": "17165063587041997152",
+          "deps": [
+            "npm:vue",
+            "npm:ofetch",
+            "npm:hookable",
+            "npm:unctx",
+            "npm:h3",
+            "npm:unhead",
+            "npm:@unhead/shared",
+            "npm:vue-router",
+            "npm:radix3",
+            "npm:defu",
+            "npm:ufo"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-ZxZgZibE.js.map",
+          "hash": "1104706047329388722"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-ZxZgZibE.js.map.json",
+          "hash": "12552388687954192968"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-styles-1.mjs-B5g5yXig.js",
+          "hash": "6548367590117745482"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-styles-1.mjs-B5g5yXig.js.map",
+          "hash": "621557745614857781"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-styles-1.mjs-B5g5yXig.js.map.json",
+          "hash": "2724325486334356985"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-styles.DUJ2O3m5.mjs",
+          "hash": "9168203906825403576"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/about-styles.Da8JKC2I.mjs",
+          "hash": "10762913481561210067"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/app-styles.CRp1Xk8n.mjs",
+          "hash": "3698476607669791009"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/app-styles.rBVzIrus.mjs",
+          "hash": "5412162432756664637"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles-1.mjs-DCyNKRSe.js",
+          "hash": "16789971896596570624"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles-1.mjs-DCyNKRSe.js.map",
+          "hash": "8946389313829596559"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles-1.mjs-DCyNKRSe.js.map.json",
+          "hash": "4670413928694281474"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles-2.mjs-C4S-uvsR.js",
+          "hash": "5817806760549707114"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles-2.mjs-C4S-uvsR.js.map",
+          "hash": "15628587320553405824"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles-2.mjs-C4S-uvsR.js.map.json",
+          "hash": "847067030980437477"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/entry-styles.0bEV2_YA.mjs",
+          "hash": "706175282772569641"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-DHLl3XLm.js",
+          "hash": "5700519338590167027",
+          "deps": [
+            "npm:vue",
+            "npm:ofetch",
+            "npm:hookable",
+            "npm:unctx",
+            "npm:h3",
+            "npm:unhead",
+            "npm:@unhead/shared",
+            "npm:vue-router",
+            "npm:radix3",
+            "npm:defu",
+            "npm:ufo"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-DHLl3XLm.js.map",
+          "hash": "5191651112177611933"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-DHLl3XLm.js.map.json",
+          "hash": "13090161135034987756"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-styles-1.mjs-Bp0vC5wV.js",
+          "hash": "18062520068073247407"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-styles-1.mjs-Bp0vC5wV.js.map",
+          "hash": "947203597575977745"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-styles-1.mjs-Bp0vC5wV.js.map.json",
+          "hash": "16210224457409901436"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-styles.BsNhHucy.mjs",
+          "hash": "6222459553011537282"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-404-styles.D1rAa8u-.mjs",
+          "hash": "7856608300042600264"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-BtHr43rq.js",
+          "hash": "8816234386198362648",
+          "deps": [
+            "npm:vue",
+            "npm:ofetch",
+            "npm:hookable",
+            "npm:unctx",
+            "npm:h3",
+            "npm:unhead",
+            "npm:@unhead/shared",
+            "npm:vue-router",
+            "npm:radix3",
+            "npm:defu",
+            "npm:ufo"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-BtHr43rq.js.map",
+          "hash": "6970942385451674116"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-BtHr43rq.js.map.json",
+          "hash": "2756167573736354858"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-styles-1.mjs-CefPD5ls.js",
+          "hash": "10771179312498053606"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-styles-1.mjs-CefPD5ls.js.map",
+          "hash": "17401766414291020695"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-styles-1.mjs-CefPD5ls.js.map.json",
+          "hash": "952760337810838912"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-styles.CL74gN4N.mjs",
+          "hash": "9009869027640431532"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/error-500-styles.WeAWLerX.mjs",
+          "hash": "4768009616638845858"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/index-BabADJUJ.js",
+          "hash": "5913169438204631634",
+          "deps": [
+            "npm:vue",
+            "npm:@unhead/shared"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/index-BabADJUJ.js.map",
+          "hash": "104732428519145679"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/index-BabADJUJ.js.map.json",
+          "hash": "12156449982029468963"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/index-CYjLYDao.js",
+          "hash": "16629097590151956788",
+          "deps": [
+            "npm:vue",
+            "npm:ofetch",
+            "npm:hookable",
+            "npm:unctx",
+            "npm:h3",
+            "npm:unhead",
+            "npm:@unhead/shared",
+            "npm:vue-router",
+            "npm:radix3",
+            "npm:defu",
+            "npm:ufo"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/index-CYjLYDao.js.map",
+          "hash": "6433262688356546871"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/_nuxt/index-CYjLYDao.js.map.json",
+          "hash": "6402725103797579806"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/client.manifest.json",
+          "hash": "13873030594390900154"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/client.manifest.mjs",
+          "hash": "15102614147717367061"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/server.mjs",
+          "hash": "8104917107965579713"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/server.mjs.map",
+          "hash": "15509587561230286029"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/server.mjs.map.json",
+          "hash": "5350798802088395272"
+        },
+        {
+          "file": "apps/goodot/.nuxt/dist/server/styles.mjs",
+          "hash": "7449758980046714430"
+        },
+        {
+          "file": "apps/goodot/.nuxt/imports.d.ts",
+          "hash": "14158373448547843167",
+          "deps": [
+            "npm:vue-router",
+            "npm:vue",
+            "npm:@unhead/vue"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/manifest/latest.json",
+          "hash": "4850421620332016320"
+        },
+        {
+          "file": "apps/goodot/.nuxt/manifest/meta/06b7c1e1-1051-44d2-bc15-81896c4cee29.json",
+          "hash": "10047561867813169160"
+        },
+        {
+          "file": "apps/goodot/.nuxt/manifest/meta/dev.json",
+          "hash": "4537619578270314373"
+        },
+        {
+          "file": "apps/goodot/.nuxt/nitro.json",
+          "hash": "670558337381493690"
+        },
+        {
+          "file": "apps/goodot/.nuxt/nuxt.d.ts",
+          "hash": "15748274788606531293"
+        },
+        {
+          "file": "apps/goodot/.nuxt/nuxt.json",
+          "hash": "12723184184033626759"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/_/error-500.mjs",
+          "hash": "6057908698926079023"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/_/error-500.mjs.map",
+          "hash": "15340923114228884152"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/_/renderer.mjs",
+          "hash": "5070647477945251788"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/_/renderer.mjs.map",
+          "hash": "4303628977983121474"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/NxWelcome-styles-1.mjs-e12BnsjV.mjs",
+          "hash": "8448826357312883395"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/NxWelcome-styles-1.mjs-e12BnsjV.mjs.map",
+          "hash": "9984151308343692865"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/NxWelcome-styles.8ZakHpKu.mjs",
+          "hash": "12011017761977807258"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/NxWelcome-styles.8ZakHpKu.mjs.map",
+          "hash": "7909137345854864284"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/NxWelcome-styles.C9G9TEo8.mjs",
+          "hash": "10804727208138950353"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/NxWelcome-styles.C9G9TEo8.mjs.map",
+          "hash": "16828729927079801647"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-ZxZgZibE.mjs",
+          "hash": "12797827849295638978"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-ZxZgZibE.mjs.map",
+          "hash": "16817015558203506872"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-styles-1.mjs-B5g5yXig.mjs",
+          "hash": "4373305318165570206"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-styles-1.mjs-B5g5yXig.mjs.map",
+          "hash": "14013603088017810059"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-styles.DUJ2O3m5.mjs",
+          "hash": "1929619569834153487"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-styles.DUJ2O3m5.mjs.map",
+          "hash": "16528297693028720189"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-styles.Da8JKC2I.mjs",
+          "hash": "16513085222261232316"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/about-styles.Da8JKC2I.mjs.map",
+          "hash": "397254161854661759"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/app-styles.CRp1Xk8n.mjs",
+          "hash": "7117395092494840680"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/app-styles.CRp1Xk8n.mjs.map",
+          "hash": "15528542142645649884"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/app-styles.rBVzIrus.mjs",
+          "hash": "3220196838079367854"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/app-styles.rBVzIrus.mjs.map",
+          "hash": "12651012541295456096"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/client.manifest.mjs",
+          "hash": "3327626387331654235"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/client.manifest.mjs.map",
+          "hash": "10518552241508180191"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/entry-styles-2.mjs-C4S-uvsR.mjs",
+          "hash": "2601508127822711373"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/entry-styles-2.mjs-C4S-uvsR.mjs.map",
+          "hash": "9351354748721281604"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/entry-styles.0bEV2_YA.mjs",
+          "hash": "8493073488246338195"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/entry-styles.0bEV2_YA.mjs.map",
+          "hash": "4977097950503642003"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-DHLl3XLm.mjs",
+          "hash": "6202677296994462148"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-DHLl3XLm.mjs.map",
+          "hash": "16163583115667461663"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-styles-1.mjs-Bp0vC5wV.mjs",
+          "hash": "3254970981496052083"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-styles-1.mjs-Bp0vC5wV.mjs.map",
+          "hash": "1967152684751670183"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-styles.BsNhHucy.mjs",
+          "hash": "18199950317818315739"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-styles.BsNhHucy.mjs.map",
+          "hash": "1670605092625349809"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-styles.D1rAa8u-.mjs",
+          "hash": "8127612341956182024"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-404-styles.D1rAa8u-.mjs.map",
+          "hash": "10445173712572246333"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-BtHr43rq.mjs",
+          "hash": "16899424060297223414"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-BtHr43rq.mjs.map",
+          "hash": "11150745646553986514"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-styles-1.mjs-CefPD5ls.mjs",
+          "hash": "14576914114837989322"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-styles-1.mjs-CefPD5ls.mjs.map",
+          "hash": "7876046057831771123"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-styles.CL74gN4N.mjs",
+          "hash": "645158504161112589"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-styles.CL74gN4N.mjs.map",
+          "hash": "1954850246188262687"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-styles.WeAWLerX.mjs",
+          "hash": "569720335760724124"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/error-500-styles.WeAWLerX.mjs.map",
+          "hash": "6665069158032883750"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/index-BabADJUJ.mjs",
+          "hash": "6666417686867538605"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/index-BabADJUJ.mjs.map",
+          "hash": "8608907905167229535"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/index-CYjLYDao.mjs",
+          "hash": "2000088950032372552"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/index-CYjLYDao.mjs.map",
+          "hash": "15868886733148072680"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/server.mjs",
+          "hash": "6536191833272349925"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/server.mjs.map",
+          "hash": "10852866153519748209"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/styles.mjs",
+          "hash": "13416276259466382612"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/build/styles.mjs.map",
+          "hash": "1238210023452757879"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/routes/api/greet.mjs",
+          "hash": "14496018410456297042"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/routes/api/greet.mjs.map",
+          "hash": "13538048149003522070"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/runtime.mjs",
+          "hash": "5108635982223197079"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/runtime.mjs.map",
+          "hash": "2026471068843351225"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/virtual/_virtual_spa-template.mjs",
+          "hash": "14443397766450176806"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/chunks/virtual/_virtual_spa-template.mjs.map",
+          "hash": "5503607922228738228"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/index.mjs",
+          "hash": "6746801723597577356"
+        },
+        {
+          "file": "apps/goodot/.nuxt/prerender/index.mjs.map",
+          "hash": "12045240043382176716"
+        },
+        {
+          "file": "apps/goodot/.nuxt/schema/nuxt.schema.d.ts",
+          "hash": "8453060438290823969"
+        },
+        {
+          "file": "apps/goodot/.nuxt/schema/nuxt.schema.json",
+          "hash": "18169401085973949642"
+        },
+        {
+          "file": "apps/goodot/.nuxt/tsconfig.json",
+          "hash": "637245798385665312"
+        },
+        {
+          "file": "apps/goodot/.nuxt/tsconfig.server.json",
+          "hash": "3341404159121552346"
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/app-defaults.d.ts",
+          "hash": "3351696902496392016"
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/app.config.d.ts",
+          "hash": "1585195815749538654",
+          "deps": [
+            "npm:nuxt",
+            "npm:defu"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/build.d.ts",
+          "hash": "13021869769731832598"
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/imports.d.ts",
+          "hash": "11582348517078532735",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/layouts.d.ts",
+          "hash": "8957050306892473857",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/middleware.d.ts",
+          "hash": "1953577702633266670",
+          "deps": [
+            "npm:vue-router"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/nitro-config.d.ts",
+          "hash": "15346040011071510187",
+          "deps": [
+            "npm:defu"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/nitro-imports.d.ts",
+          "hash": "9569059154137176571",
+          "deps": [
+            "npm:h3"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/nitro-nuxt.d.ts",
+          "hash": "17121207856213823216",
+          "deps": [
+            "npm:nuxt",
+            "npm:h3",
+            "npm:consola"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/nitro-routes.d.ts",
+          "hash": "9115393011661656361",
+          "deps": [
+            "npm:nitropack"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/nitro.d.ts",
+          "hash": "7973719115621089793"
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/plugins.d.ts",
+          "hash": "5243005739449580617"
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/schema.d.ts",
+          "hash": "13079928199843112006",
+          "deps": [
+            "npm:@nuxt/schema",
+            "npm:@nuxt/devtools",
+            "npm:@nuxt/telemetry"
+          ]
+        },
+        {
+          "file": "apps/goodot/.nuxt/types/vue-shim.d.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/goodot/.output/nitro.json",
+          "hash": "3493560849032493544"
+        },
+        {
+          "file": "apps/goodot/.output/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/goodot/.output/public/200.html",
+          "hash": "7962161149560021732"
+        },
+        {
+          "file": "apps/goodot/.output/public/404.html",
+          "hash": "14931547672055017778"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/BjaEPjLZ.js",
+          "hash": "10606399143724250072"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/C9jHcg-3.js",
+          "hash": "2864482189551232320"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/CMTcfP9U.js",
+          "hash": "15439238653275248899"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/DhFGgaeH.js",
+          "hash": "12273505001764206204"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/DiH1PTIg.js",
+          "hash": "17338585946612902136"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/about.vbFtJHG2.css",
+          "hash": "322817409612617598"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/builds/latest.json",
+          "hash": "13841476922188424021"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/builds/meta/06b7c1e1-1051-44d2-bc15-81896c4cee29.json",
+          "hash": "10047561867813169160"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/entry.Su7xmw9w.css",
+          "hash": "17613408841203314570"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/error-404.99oquldU.css",
+          "hash": "8990550761275681443"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/error-500.BQ_oAPIi.css",
+          "hash": "14592104538308869694"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/index.BWiHq_bB.css",
+          "hash": "14234567995552384447"
+        },
+        {
+          "file": "apps/goodot/.output/public/_nuxt/r6mBGZ-H.js",
+          "hash": "9431944384426170343"
+        },
+        {
+          "file": "apps/goodot/.output/public/_payload.json",
+          "hash": "3100691462594063768"
+        },
+        {
+          "file": "apps/goodot/.output/public/about/_payload.json",
+          "hash": "8864070893549642964"
+        },
+        {
+          "file": "apps/goodot/.output/public/about/index.html",
+          "hash": "9478563125479846072"
+        },
+        {
+          "file": "apps/goodot/.output/public/favicon.ico",
+          "hash": "6004808206618708045"
+        },
+        {
+          "file": "apps/goodot/.output/public/index.html",
+          "hash": "2301754435654973844"
         },
         {
           "file": "apps/goodot/eslint.config.js",
@@ -137,6 +1760,13 @@
           "hash": "10946155950504047335"
         },
         {
+          "file": "apps/goodot/src/pages/repositories.vue",
+          "hash": "2838025964355575066",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
           "file": "apps/goodot/src/public/.gitkeep",
           "hash": "3244421341483603138"
         },
@@ -145,10 +1775,35 @@
           "hash": "6004808206618708045"
         },
         {
+          "file": "apps/goodot/src/server/api/addRepository.ts",
+          "hash": "7680598585608917487",
+          "deps": [
+            "npm:h3"
+          ]
+        },
+        {
+          "file": "apps/goodot/src/server/api/addRepository.tsINTERFACE",
+          "hash": "13516828259439296707"
+        },
+        {
           "file": "apps/goodot/src/server/api/greet.ts",
           "hash": "16792560205052821447",
           "deps": [
             "npm:h3"
+          ]
+        },
+        {
+          "file": "apps/goodot/src/server/api/repositories.ts",
+          "hash": "10207291890830409942",
+          "deps": [
+            "npm:h3"
+          ]
+        },
+        {
+          "file": "apps/goodot/src/server/prisma-client.ts",
+          "hash": "6733026926057219989",
+          "deps": [
+            "npm:@prisma/client"
           ]
         },
         {
