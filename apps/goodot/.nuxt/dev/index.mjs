@@ -1053,18 +1053,62 @@ const addRepository = defineEventHandler(async (event) => {
   if (!repoData) {
     throw new Error("repoData is undefined");
   }
-  console.log(repoData);
-  const { license } = repoData;
-  console.log(license);
-  let existingLicense = await prisma.license.create({
-    data: {
-      key: license.key,
-      name: license.name,
-      spdx_id: license.spdx_id,
-      url: license.url,
-      node_id: license.node_id
+  const { license, owner } = repoData;
+  let existingLicense = await prisma.license.findFirst({
+    where: {
+      OR: [
+        { id: license.id },
+        // Check by ID
+        { key: license.key }
+        // Check by key
+      ]
     }
   });
+  if (!existingLicense) {
+    existingLicense = await prisma.license.create({
+      data: {
+        key: license.key,
+        name: license.name,
+        spdx_id: license.spdx_id,
+        url: license.url,
+        node_id: license.node_id
+      }
+    });
+  }
+  let existingOwner = await prisma.user.findUnique({
+    where: { node_id: owner.node_id }
+    // Assuming node_id is unique
+  });
+  if (!existingOwner) {
+    existingOwner = await prisma.user.create({
+      data: {
+        node_id: owner.node_id,
+        login: owner.login,
+        avatar_url: owner.avatar_url,
+        gravatar_id: owner.gravatar_id,
+        url: owner.url,
+        html_url: owner.html_url,
+        followers_url: owner.followers_url,
+        following_url: owner.following_url,
+        gists_url: owner.gists_url,
+        starred_url: owner.starred_url,
+        subscriptions_url: owner.subscriptions_url,
+        organizations_url: owner.organizations_url,
+        repos_url: owner.repos_url,
+        events_url: owner.events_url,
+        received_events_url: owner.received_events_url,
+        type: owner.type,
+        site_admin: owner.site_admin
+      }
+    });
+  }
+  let existingRepository = await prisma.repository.findUnique({
+    where: { node_id: repoData.node_id }
+    // Assuming node_id is unique for repositories
+  });
+  if (existingRepository) {
+    return existingRepository;
+  }
   const repository = await prisma.repository.create({
     data: {
       node_id: repoData.node_id,
@@ -1147,7 +1191,11 @@ const addRepository = defineEventHandler(async (event) => {
       subscribers_count: repoData.subscribers_count,
       license: {
         connect: { id: existingLicense.id }
-        // Use connect to link the existing license
+        // Link to the existing license
+      },
+      user: {
+        connect: { id: existingOwner.id }
+        // Link to the existing owner
       }
     }
   });

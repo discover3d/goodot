@@ -37,48 +37,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "prisma/migrations/20241027142848_full_structure_relation_license/migration.sql",
+        "hash": "11586202476996121091"
       },
       {
-        "file": "package.json",
-        "hash": "4138742327054406107"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": "nx.json",
-        "hash": "8312142782832817177"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "README.md",
-        "hash": "17872556332324630877"
+        "file": "package-lock.json",
+        "hash": "9379614031737854410"
       },
       {
         "file": "prisma/migrations/migration_lock.toml",
         "hash": "10997593172930738585"
       },
       {
-        "file": ".env",
-        "hash": "12756446777390199363"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "prisma/schema.prisma",
-        "hash": "16520892578248812873"
+        "hash": "18149479536712683710"
       },
       {
-        "file": "prisma/db/goodot.db",
-        "hash": "15676271423970634808"
+        "file": "prisma/.DS_Store",
+        "hash": "1423727717470884368"
       },
       {
-        "file": ".DS_Store",
-        "hash": "16730629191048842229"
+        "file": ".vscode/extensions.json",
+        "hash": "16362845859510497250"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "prisma/migrations/20241027141150_full_structure_relation/migration.sql",
+        "hash": "1437879033111690016"
+      },
+      {
+        "file": "package.json",
+        "hash": "4138742327054406107"
       },
       {
         "file": "prisma/migrations/20241027140118_visibility/migration.sql",
@@ -89,84 +89,51 @@
         "hash": "14934145557009873688"
       },
       {
-        "file": "prisma/.DS_Store",
-        "hash": "1423727717470884368"
+        "file": "README.md",
+        "hash": "17872556332324630877"
       },
       {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "prisma/migrations/20241027141150_full_structure_relation/migration.sql",
-        "hash": "1437879033111690016"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "9379614031737854410"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "1380489499603536477"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "16362845859510497250"
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       },
       {
         "file": "prisma/migrations/20241027140929_full_structure_relation/migration.sql",
         "hash": "12144586823853944342"
       },
       {
+        "file": "prisma/db/goodot.db",
+        "hash": "11451609085734052304"
+      },
+      {
         "file": "eslint.config.js",
         "hash": "13509700000911259425"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": "prisma/migrations/20241027142848_full_structure_relation_license/migration.sql",
-        "hash": "11586202476996121091"
+        "file": ".github/workflows/ci.yml",
+        "hash": "1380489499603536477"
+      },
+      {
+        "file": ".env",
+        "hash": "12756446777390199363"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
+      },
+      {
+        "file": "nx.json",
+        "hash": "8312142782832817177"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "16730629191048842229"
       }
     ],
     "projectFileMap": {
-      "goodot-e2e": [
-        {
-          "file": "apps/goodot-e2e/eslint.config.js",
-          "hash": "4703616457710285801",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "apps/goodot-e2e/playwright.config.ts",
-          "hash": "12438681865170134677",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/goodot-e2e/project.json",
-          "hash": "12154316006048627236"
-        },
-        {
-          "file": "apps/goodot-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/goodot-e2e/tsconfig.json",
-          "hash": "13413400511057489941"
-        }
-      ],
       "goodot": [
         {
           "file": "apps/goodot/.npmrc",
@@ -1000,11 +967,11 @@
         },
         {
           "file": "apps/goodot/.nuxt/dev/index.mjs",
-          "hash": "11214001492598098710"
+          "hash": "9631977885256248072"
         },
         {
           "file": "apps/goodot/.nuxt/dev/index.mjs.map",
-          "hash": "3445766516039962730"
+          "hash": "18332910004229663788"
         },
         {
           "file": "apps/goodot/.nuxt/dist/server/client.manifest.json",
@@ -1029,19 +996,19 @@
         },
         {
           "file": "apps/goodot/.nuxt/manifest/latest.json",
-          "hash": "11102803727645472105"
+          "hash": "6467774251819206923"
         },
         {
           "file": "apps/goodot/.nuxt/manifest/meta/dev.json",
-          "hash": "13174321612102121786"
+          "hash": "9992079124804357533"
         },
         {
           "file": "apps/goodot/.nuxt/nitro.json",
-          "hash": "7486340033119701820"
+          "hash": "9326138888206075993"
         },
         {
           "file": "apps/goodot/.nuxt/nuxt.d.ts",
-          "hash": "13742373987064797233"
+          "hash": "15748274788606531293"
         },
         {
           "file": "apps/goodot/.nuxt/nuxt.json",
@@ -1297,7 +1264,7 @@
         },
         {
           "file": "apps/goodot/src/server/api/addRepository.ts",
-          "hash": "18082531949322401955",
+          "hash": "10393585586559725349",
           "deps": [
             "npm:h3"
           ]
@@ -1351,6 +1318,39 @@
             "npm:@vitejs/plugin-vue",
             "npm:@nx/vite"
           ]
+        }
+      ],
+      "goodot-e2e": [
+        {
+          "file": "apps/goodot-e2e/eslint.config.js",
+          "hash": "4703616457710285801",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/playwright.config.ts",
+          "hash": "12438681865170134677",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/project.json",
+          "hash": "12154316006048627236"
+        },
+        {
+          "file": "apps/goodot-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
         }
       ]
     }
