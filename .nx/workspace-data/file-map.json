@@ -37,103 +37,176 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "prisma/migrations/20241027142848_full_structure_relation_license/migration.sql",
-        "hash": "11586202476996121091"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "9379614031737854410"
-      },
-      {
-        "file": "prisma/migrations/migration_lock.toml",
-        "hash": "10997593172930738585"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "prisma/schema.prisma",
-        "hash": "18149479536712683710"
-      },
-      {
         "file": "prisma/.DS_Store",
         "hash": "1423727717470884368"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "16362845859510497250"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
       },
       {
-        "file": "prisma/migrations/20241027141150_full_structure_relation/migration.sql",
-        "hash": "1437879033111690016"
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": "package.json",
-        "hash": "4138742327054406107"
-      },
-      {
-        "file": "prisma/migrations/20241027140118_visibility/migration.sql",
-        "hash": "12386748538337253981"
-      },
-      {
-        "file": "prisma/migrations/20241026165028_init/migration.sql",
-        "hash": "14934145557009873688"
-      },
-      {
-        "file": "README.md",
-        "hash": "17872556332324630877"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
+        "file": "cypress/integration/repositories.spec.js",
+        "hash": "1559144707037252234"
       },
       {
         "file": "prisma/migrations/20241027140929_full_structure_relation/migration.sql",
         "hash": "12144586823853944342"
       },
       {
-        "file": "prisma/db/goodot.db",
-        "hash": "11451609085734052304"
+        "file": "prisma/schema.prisma",
+        "hash": "18149479536712683710"
+      },
+      {
+        "file": "README.md",
+        "hash": "17872556332324630877"
+      },
+      {
+        "file": "prisma/migrations/migration_lock.toml",
+        "hash": "10997593172930738585"
+      },
+      {
+        "file": "prisma/migrations/20241027142848_full_structure_relation_license/migration.sql",
+        "hash": "11586202476996121091"
       },
       {
         "file": "eslint.config.js",
         "hash": "13509700000911259425"
       },
       {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "1380489499603536477"
+        "file": "cypress/e2e/repositories.cy.js",
+        "hash": "14874536177607940418"
       },
       {
         "file": ".env",
         "hash": "12756446777390199363"
       },
       {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
+        "file": "prisma/db/goodot.db",
+        "hash": "11451609085734052304"
+      },
+      {
+        "file": "prisma/migrations/20241027140118_visibility/migration.sql",
+        "hash": "12386748538337253981"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9379614031737854410"
+      },
+      {
+        "file": "cypress.config.js",
+        "hash": "17746639856793677624"
+      },
+      {
+        "file": "cypress/integration/add_repository.spec.js",
+        "hash": "7496494090558200972"
+      },
+      {
+        "file": "cypress/screenshots/repositories.cy.js/Tests sur la page des repositories -- devrait afficher les détails d'un repository (failed).png",
+        "hash": "17383509910405944717"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "prisma/migrations/20241026165028_init/migration.sql",
+        "hash": "14934145557009873688"
       },
       {
         "file": "nx.json",
         "hash": "8312142782832817177"
       },
       {
+        "file": "package.json",
+        "hash": "18279522004327697300"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "cypress/support/e2e.js",
+        "hash": "14226218080392040017"
+      },
+      {
+        "file": "cypress/screenshots/repositories.cy.js/Tests sur la page des repositories -- devrait afficher la liste des repositories (failed).png",
+        "hash": "11048739649886327848"
+      },
+      {
+        "file": "prisma/migrations/20241027141150_full_structure_relation/migration.sql",
+        "hash": "1437879033111690016"
+      },
+      {
+        "file": "cypress/.DS_Store",
+        "hash": "103970096158523576"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "1380489499603536477"
+      },
+      {
+        "file": "cypress/screenshots/repositories.cy.js/Tests sur l'insertion des repositories -- devrait insérer un nouveau repository -- before each hook (failed).png",
+        "hash": "13648658326171630156"
+      },
+      {
         "file": ".DS_Store",
-        "hash": "16730629191048842229"
+        "hash": "7674527557091950186"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16362845859510497250"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "cypress/screenshots/.DS_Store",
+        "hash": "2067407723636082048"
       }
     ],
     "projectFileMap": {
+      "goodot-e2e": [
+        {
+          "file": "apps/goodot-e2e/eslint.config.js",
+          "hash": "4703616457710285801",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/playwright.config.ts",
+          "hash": "12438681865170134677",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/project.json",
+          "hash": "12154316006048627236"
+        },
+        {
+          "file": "apps/goodot-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/goodot-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
+        }
+      ],
       "goodot": [
         {
           "file": "apps/goodot/.npmrc",
@@ -996,15 +1069,15 @@
         },
         {
           "file": "apps/goodot/.nuxt/manifest/latest.json",
-          "hash": "6467774251819206923"
+          "hash": "8735571353706026494"
         },
         {
           "file": "apps/goodot/.nuxt/manifest/meta/dev.json",
-          "hash": "9992079124804357533"
+          "hash": "9523931013651009813"
         },
         {
           "file": "apps/goodot/.nuxt/nitro.json",
-          "hash": "9326138888206075993"
+          "hash": "15008874754555478599"
         },
         {
           "file": "apps/goodot/.nuxt/nuxt.d.ts",
@@ -1318,39 +1391,6 @@
             "npm:@vitejs/plugin-vue",
             "npm:@nx/vite"
           ]
-        }
-      ],
-      "goodot-e2e": [
-        {
-          "file": "apps/goodot-e2e/eslint.config.js",
-          "hash": "4703616457710285801",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "apps/goodot-e2e/playwright.config.ts",
-          "hash": "12438681865170134677",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/goodot-e2e/project.json",
-          "hash": "12154316006048627236"
-        },
-        {
-          "file": "apps/goodot-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/goodot-e2e/tsconfig.json",
-          "hash": "13413400511057489941"
         }
       ]
     }
